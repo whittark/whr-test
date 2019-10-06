@@ -1,0 +1,33 @@
+<!--
+    
+Oxygen WebHelp Plugin
+Copyright (c) 1998-2017 Syncro Soft SRL, Romania.  All rights reserved.
+
+-->
+
+<dummy>
+  <!-- GEHC-105 -->
+  <!-- Rally ID US312 -->
+  <!-- 2017-10-20: added new parameters for watermark, draft comments, profiling values -->
+  <param name="DRAFT" expression="${args.draft}"/>
+  <param name="DRAFT.TOPICHEAD" expression="${ge.web.add.topichead}"/>
+  <param name="PRM_OUTPUT_DRAFT_WATERMARK" expression="${draft.mark}"/>
+  <param name="PRM_OUTPUT_DRAFT_COMMENTS" expression="${args.draft}"/>
+  <param name="PRM_OUTPUT_PROFILING_VALUES" expression="${profiling.values}"/>
+  <param name="PRM_OUTPUT_HAZARD_LABEL" expression="${args.gen.hazard.lbl}"/>
+  <param name="PRM_SUBHEADERNUM" expression="${ge.add.subheader.prefix}"/>
+  <param name="PRM_CHAPTERNUM" expression="${ge.add.chapter.prefix}"/>
+  <param name="geInputMap" expression="${dita.temp.dir}/${user.input.file}"/>
+  <param name="tempdir" expression="${dita.temp.dir}"/>
+  <param name="inputdir" expression="${args.input}"/>
+  <!-- GEHC-162 -->
+  <!-- Rally ID US344 -->
+  <!-- 2018-01-20: added support button param -->
+  <param name="PRM_SUPPORT_BUTTON" expression="${support.button}" />
+  <param name="SHOW_SHORTDESC" expression="${show.shortdesc}" />
+<!--
+  <param name="webhelp.footer.add.generation.time" 
+    expression="${webhelp.footer.add.generation.time}"
+    if="webhelp.footer.add.generation.time"/>  -->
+  
+  </dummy>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<!-- Vietnamese -->
+<strings xml:lang="vi-vn">
+ <!--Translation may be needed for legal notice and footer text.-->
+ <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+ <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+  subject to change without notice. This information is the confidential and proprietary information
+  of General Electric Company. Unauthorized duplication is strictly prohibited.</str>-->
+ <str name="Legal Notice">Legal Notice</str>
+ <str name="Notice">LƯU Ý</str>
+ <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+ <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+ <str name="Web Display">ge.com</str><!--Do not translate-->
+ <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+ <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+ <str name="OpenFrame">Mở bằng khung hình</str>
+ <str name="Expand">Mở rộng</str>
+ <str name="Collapse">Thu gọn tất cả</str>
+ <str name="Print">In trang này</str>
+ <str name="Email">Email</str>
+ 
+ <!-- various labels (not author controlled) -->
+ <str name="Chapter_Title_Prefix">Chương</str>
+ <str name="Appendix_Title">Phụ lục</str>
+ <str name="Appendices_Title">Phụ lục</str>
+ <str name="Figure">Hình</str>
+ <str name="Table">Bảng</str>
+ <str name="Figure_List_Title">Danh sách các hình</str>
+ <str name="Table_List_Title">Danh sách các bảng</str>
+ <str name="Xref_Step">Bước</str>
+ <str name="Next topic">Next topic<!--Translate--></str>
+ <str name="Previous topic">Previous topic<!--Translate--></str>
+ <str name="Parent topic">Parent topic<!--Translate--></str>
+ <str name="Required cleanup">Required cleanup<!--Translate--></str>
+ <str name="Draft comment">Draft comment<!--Translate--></str>
+ <str name="Option">Option<!--Translate--></str>
+ <str name="Description">Description<!--Translate--></str>
+ <str name="Optional">Optional<!--Translate--></str>
+ <str name="Required">Required<!--Translate--></str>
+ <str name="Skip visual syntax diagram"><!--Translate-->Skip visual syntax diagram</str>
+ <str name="Read syntax diagram"><!--Translate-->Read syntax diagram</str>
+ <str name="Start of change"><!--Translate-->Start of change</str>
+ <str name="End of change"><!--Translate-->End of change</str>
+ <str name="Index">Chỉ mục</str>
+ <str name="Content">Nội dung</str>
+ <str name="Search">Tìm kiếm</str>
+ <str name="Special characters"><!--Translate-->Special characters</str>
+ <str name="Numerics">Numerics<!--Translate--></str>
+ <str name="End notes">End notes<!--Translate--></str>
+ <str name="Artwork">Artwork<!--Translate--></str>
+ <str name="Syntax">Syntax<!--Translate--></str>
+ <str name="Type">Type<!--Translate--></str>
+ <str name="Value">Value<!--Translate--></str>
+ <str name="Choptionhd">Lựa chọn</str>
+ <str name="Chdeschd">Hướng dẫn</str>
+ <!-- Text that goes before a link to a topic -->
+ <str name="intro-to-topic-link"/>
+
+ <!-- default title text for section level generated sections -->
+ <str name="Contents">Contents<!--Translate--></str>
+ <str name="Related concepts"><!--Translate-->Related concepts</str>
+ <str name="Related tasks"><!--Translate-->Related tasks</str>
+ <str name="Related reference"><!--Translate-->Related reference</str>
+ <str name="Related information"><!--Translate-->Related information</str>
+
+ <str name="Prerequisite"><!--Translate-->Prerequisite</str>
+ <str name="Prerequisites"><!--Translate-->Prerequisites</str>
+ <str name="or">or</str>
+
+ <!--Task section labels -->
+ <str name="task_context"><!--Translate-->About this task</str>
+ <str name="task_example"><!--Translate-->Example</str>
+ <str name="task_postreq"><!--Translate-->What to do next</str>
+ <str name="task_prereq"><!--Translate-->Before you begin</str>
+ <str name="task_procedure"><!--Translate-->Procedure</str>
+ <str name="task_results"><!--Translate-->Results</str>
+
+ <str name="Copyright">Copyright<!--Translate--></str>
+
+ <!-- Symbols -->
+ <str name="OpenQuote">"</str>
+ <str name="CloseQuote">"</str>
+ <str name="ColonSymbol">:</str>
+
+ <!-- For odt transform -->
+ <str name="On the page"> on page <!--Translate--></str>
+ <str name="Related Links">Related Links<!--Translate--></str>
+ <str name="List item">List item.<!--Translate--></str>
+ <str name="Foot note">Footnote.<!--Translate--></str>
+ <str name="Page"> page <!--Translate--></str>
+ <str name="Unordered List bullet">&#x2022;</str>
+  
+ <!-- peril notice labels -->
+ <str name="Note">GHI CHÚ</str>
+ <str name="Notice">LƯU Ý</str>
+ <str name="Notes">notes<!--Translate--></str>
+ <str name="Tip">LỜI KHUYÊN</str>
+ <str name="Fastpath"><!--Translate-->fastpath</str>
+ <str name="Important">QUAN TRỌNG</str>
+ <str name="Attention">CHÚ Ý</str>
+ <str name="Caution">THẬN TRỌNG</str>
+ <str name="Danger">NGUY HIỂM</str>
+ <str name="Remember"><!--Translate-->remember</str>
+ <str name="Restriction"><!--Translate-->restriction</str>
+ <str name="Warning">CẢNH BÁO</str>
+
+ <!-- autogenerated strings based on paragraph style name -->
+ <str type="webworks" name="child link Open" attribute="bullet-character">Subtopics</str>
+ <str type="webworks" name="Next link" attribute="bullet-character" stylename="Bold">Next
+  topic:</str>
+ <str type="webworks" name="Previous link" attribute="bullet-character" stylename="Bold">Previous
+  topic:</str>
+ <str type="webworks" name="Related Topic Open" attribute="bullet-character">Related topics</str>
+ <str type="webworks" name="Related Concepts Open" attribute="bullet-character">Related
+  concepts</str>
+ <str type="webworks" name="Related Reference Open" attribute="bullet-character">Related
+  references</str>
+ <str type="webworks" name="Related Tasks Open" attribute="bullet-character">Related tasks</str>
+
+ <str type="webworks" name="Postrequisite Open show_hide_open" attribute="bullet-character">After
+  you finish</str>
+ <str type="webworks" name="Postrequisite Open show_hide_closed" attribute="bullet-character">After
+  you finish</str>
+ <str type="webworks" name="Postrequisite Open" attribute="bullet-character">After you finish</str>
+
+ <str type="webworks" name="ReviewerNote" attribute="bullet-character">Reviewers</str>
+ <str type="webworks" name="child link sequence Open" attribute="bullet-character">Procedure</str>
+ <str type="webworks" name="Steps Open" attribute="bullet-character">Procedure</str>
+ <str type="webworks" name="Steps show_hide_open Open" attribute="bullet-character">Procedure</str>
+ <str type="webworks" name="Steps show_hide_closed Open" attribute="bullet-character"
+  >Procedure</str>
+
+ <str type="webworks" name="Single Appendix Heading 1" attribute="bullet-character">Phụ lục: </str>
+ <str type="webworks" name="Single Appendix Title" attribute="bullet-character">Phụ lục: </str>
+
+ <str type="webworks" name="List optional 1" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="List optional 2" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="List optional 3" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Step optional 1" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="SubStep optional 2" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Numbered optional 2" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Numbered optional 1" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Numbered optional 3" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="child link family Optional" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="child link sequence Optional" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="child link unordered Optional" attribute="paragraph-prefix">(Optional) </str>
+
+ <str type="webworks" name="copyright" attribute="paragraph-prefix">Copyright</str>
+ <str type="webworks" name="Prerequisite Open" attribute="bullet-character">Before you begin</str>
+ <str type="webworks" name="Result Open" attribute="bullet-character">Results</str>
+ <str type="webworks" name="Context Open" attribute="bullet-character">About this task</str>
+ <str type="webworks" name="Example Open" attribute="bullet-character">Example</str>
+ <str type="webworks" name="Example Open show_hide_closed" attribute="bullet-character"
+  >Example</str>
+ <str type="webworks" name="Example Open show_hide_open" attribute="bullet-character">Example</str>
+ <str type="webworks" name="Description Open" attribute="bullet-character">Description</str>
+ <str type="webworks" name="Syntax Open" attribute="bullet-character">Syntax</str>
+ <str type="webworks" name="Arguments Open" attribute="paragraph-prefix">Arguments</str>
+ <str type="webworks" name="Options Open" attribute="paragraph-prefix">Options</str>
+ <str type="webworks" name="Parameters Open" attribute="paragraph-prefix">Parameters</str>
+
+ <str type="webworks" name="XREF step" attribute="character-prefix">Bước </str>
+ <str type="webworks" name="XREF li" attribute="character-prefix">Bước </str>
+ <str type="webworks" name="XREF figure" attribute="character-prefix">Hình </str>
+ <str type="webworks" name="XREF table" attribute="character-prefix">Bảng </str>
+
+</strings>

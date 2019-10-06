@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+   Sourceforge.net. See the accompanying license.txt file for 
+   applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="sk-sk">
+   <!-- Slovak -->
+   <!--Translation may be needed for legal notice and footer text.-->
+   <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+   <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+      subject to change without notice. This information is the confidential and proprietary information
+      of General Electric Company. Unauthorized duplication is strictly prohibited.</str>-->
+   <str name="Legal Notice">Legal Notice</str>
+   <str name="Notice">UPOZORNENIE</str>
+   <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+   <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+   <str name="Web Display">ge.com</str><!--Do not translate-->
+   <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+   <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+   <str name="OpenFrame">Otvoriť v rámoch</str>
+   <str name="Expand">Rozbaliť</str>
+   <str name="Collapse">Zbaliť všetky</str>
+   <str name="Print">Vytlačiť túto stranu</str>
+   <str name="Email">E-mail</str>
+   
+   <!-- various labels (not author controlled) -->
+   <str name="Chapter_Title_Prefix">Kapitola</str>
+   <str name="Appendix_Title">Príloha</str>
+   <str name="Appendices_Title">Prílohy</str>
+   <str name="Figure">Obrázok</str>
+   <str name="Figure_List_Title">Zoznam obrázkov</str>
+   <str name="Table">Tabuľka</str>
+   <str name="Table_List_Title">Zoznam tabuliek</str>
+   <str name="Xref_Step">Krok</str>
+   <str name="Next topic">Nasledujúca téma</str>
+   <str name="Previous topic">Predchádzajúca téma</str>
+   <str name="Parent topic">Nadradená téma</str>
+   <str name="Required cleanup">Požadované čistenie</str>
+   <str name="Draft comment">Poznámka v koncepte</str>
+   <str name="Option">Voľba</str>
+   <str name="Description">Opis</str>
+   <str name="Optional">Voliteľný</str>
+   <str name="Required">Požadovaný</str>
+   <str name="Skip visual syntax diagram">Preskočiť vizuálny diagram syntaxe</str>
+   <str name="Read syntax diagram">Čítať diagram syntaxe</str>
+   <str name="Start of change">Začiatok zmeny</str>
+   <str name="End of change">Koniec zmeny</str>
+   <str name="Index">Register</str>
+   <str name="Content">Obsah</str>
+   <str name="Search">Hľadať</str>
+   <str name="Special characters">Špeciálne znaky</str>
+   <str name="Numerics">Numerický</str>
+   <str name="End notes">Záverečné poznámky</str>
+   <str name="Artwork">Obrázok</str>
+   <str name="Syntax">Syntax</str>
+   <str name="Type">Typ</str>
+   <str name="Value">Hodnota</str>
+   <str name="Choptionhd">Voľba</str>
+   <str name="Chdeschd">Pokyny</str>
+   <!-- Text that goes before a link to a topic -->
+   <str name="intro-to-topic-link"></str>
+
+   <!-- peril notice labels -->
+   <str name="Note">POZNÁMKA</str>
+   <str name="Notes">Poznámky</str>
+   <str name="Notice">UPOZORNENIE</str>
+   <str name="Tip">TIP</str>
+   <str name="Fastpath">Rýchla cesta</str>
+   <str name="Important">DÔLEŽITÉ</str>
+   <str name="Attention">POZOR</str>
+   <str name="Caution">VÝSTRAHA</str>
+   <str name="Danger">NEBEZPEČENSTVO</str>
+   <str name="Remember">Zapamätajte si</str>
+   <str name="Restriction">Obmedzenie</str>
+   <str name="Warning">VAROVANIE</str>
+
+   <!-- default title text for section level generated sections -->
+   <str name="Contents">Obsah</str>
+   <str name="Related concepts">Súvisiace koncepty</str>
+   <str name="Related tasks">Súvisiace úlohy</str>
+   <str name="Related reference">Súvisiaci odkaz</str>
+   <str name="Related information">Súvisiace informácie</str>
+
+   <str name="Prerequisite">Požiadavka</str>
+   <str name="Prerequisites">Požiadavky</str>
+   <str name="or">or</str>
+
+   <!--Task section labels -->
+   <str name="task_context">Informácie o úlohe</str>
+   <str name="task_example">Príklad</str>
+   <str name="task_postreq">Ako ďalej</str>
+   <str name="task_prereq">Skôr ako začnete</str>
+   <str name="task_procedure">Procedúra</str>
+   <str name="task_results">Výsledky</str>
+
+   <str name="Copyright">Copyright</str>
+
+   <!-- Symbols -->
+   <str name="OpenQuote">"</str>
+   <str name="CloseQuote">"</str>
+   <str name="ColonSymbol">:</str>
+
+</strings>

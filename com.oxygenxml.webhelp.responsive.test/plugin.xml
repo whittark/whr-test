@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin id="com.oxygenxml.webhelp.responsive.ge">
+    <feature extension="dita.conductor.target.relative" file="integrator.xml"/>
+  <feature extension="dita.xsl.topicpull" file="xsl/preprocess/topicpullImpl.xsl"/>
+  <feature extension="dita.xsl.mappull" file="xsl/preprocess/mappullAddMetadataGE.xsl"/>
+<!--    <feature extension="dita.preprocess.topicpull.param" value="insertParameters.xml" type="file"/>-->
+    <feature extension="dita.xsl.strings" file="common/strings.xml"/>
+    <feature extension="com.oxygenxml.webhelp.xsl.dita2webhelp.param" value="insertParameters.xml" type="file"></feature>
+    <feature extension="com.oxygenxml.webhelp.xsl.createTocXML.param" value="insertParameters.xml" type="file"></feature>
+     <feature extension="dita.preprocess.topicpull.param" value="insertParameters.xml" type="file"/>
+    <feature extension="dita.preprocess.mappull.param" value="insertParameters.xml" type="file"/>
+    <transtype name="webhelp-responsive-ge" extends="webhelp-responsive" 
+        desc="WebHelp Responsive GE"/>
+</plugin>

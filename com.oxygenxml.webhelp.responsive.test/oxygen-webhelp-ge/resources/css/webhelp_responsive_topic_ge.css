@@ -1,0 +1,776 @@
+/*
+
+Oxygen WebHelp Plugin
+Copyright (c) 1998-2017 Syncro Soft SRL, Romania.  All rights reserved.
+
+*/
+
+@import "webhelp_topic_elements_styles.css";
+@import url("https://use.typekit.net/sju5kzy.css");
+@import "print.css";
+
+@font-face {
+    font-family: "GE Iconography Webfont";
+    src: url("ge-iconography-webfont.woff") format('woff');
+}
+
+
+#wh_print_link{
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: larger;
+    display: inline-block;
+    padding-bottom: 5px;
+    line-height: 16px;
+}
+
+.wh_logo img{
+    width:75px;
+}
+
+a.glyphicon-print::before {
+    font-family: "GE Iconography Webfont";
+    content: "\f34e";
+    color: #1F2E3C;
+
+}
+
+.wh_print_link a {
+      color: #1F2E3C;
+}
+
+.dt[id]::after, .section[id] .sectiontitle::after, .title.topictitle2[id]::after, table[id] .tablecap::after, .twist[id] .this::after{
+
+    content: "";
+    padding: 0 0.4em;
+    margin: 0 0 0 0.5em;
+    opacity: 0.35;
+    transition: opacity .3s;
+    background: url(../images/link-icon.png) no-repeat;
+    background-size: contain;
+    background-position-y: 60%;
+    cursor: pointer;
+
+}
+
+.wh_expand_btnX {
+
+    cursor: pointer;
+    opacity: .4;
+    transition: opacity .3s;
+    width: 1em;
+    position: absolute;
+    left: -5px;
+
+}
+
+.wh_expand_btnX::before {
+
+    content: "\e258";
+    font-family: "Glyphicons Halflings", serif;
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: lighter;
+    display: inline-block;
+    margin-right: 5px;
+    opacity: 0.5;
+    width: 1em;
+
+}
+
+.wh_expand_btnX.expanded::before {
+
+    content: "\e259";
+
+}
+
+a.glyphicon-envelope::before {
+    font-family: "GE Iconography Webfont";
+    content: "\f2c8";
+    color: #1F2E3C;
+}
+
+*[data-product]::before{
+    
+    content: "[product: "attr(data-product)"]";
+    border: 1px red solid;
+    background-color:pink;
+    font-weight:bold;
+}
+
+
+*[data-rev]::before{
+    
+    content: "[rev: "attr(data-rev)"]";
+    border: 1px red solid;
+     background-color:pink;
+    font-weight:bold;
+    display: block;
+}
+
+*[data-audience]::before{
+    
+    content: "[audience: "attr(data-audience)"]";
+    border: 1px red solid;
+     background-color:pink;
+    font-weight:bold;
+     display: block;
+}
+
+*[data-otherprops]::before{
+    
+    content: "[otherprops: "attr(data-otherprops)"]";
+    border: 1px red solid;
+     background-color:pink;
+    font-weight:bold;
+     display: block;
+}
+
+*[data-props]::before{
+    
+    content: "[props: "attr(data-props)"]";
+    border: 1px red solid;
+     background-color:pink;
+    font-weight:bold;
+     display: block;
+}
+
+*[data-platform]::before{
+    
+    content: "[platform: "attr(data-platform)"]";
+    border: 1px red solid;
+     background-color:pink;
+    font-weight:bold;
+     display: block;
+}
+table.table
+{
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    hyphens:auto;
+    font-size: inherit;
+    
+}
+
+table.callout
+{
+    margin-top: 12px;
+}
+
+td.callout {
+    padding: 0 1px 0 0;
+}
+tr.callout {
+    vertical-align: top;
+    
+}
+
+/*  Custom lists */
+
+div.topicMeta
+{
+     display: block;
+     padding: 0 0 6px 0;
+     width: 40%;
+     margin-left: 60%;
+     margin-top: 30px;
+     text-align: right;
+     hyphens: none;
+}
+
+.topicMeta ul {
+   list-style:none;
+   font-size:8pt;
+   margin: 0 0 0 10px;
+   padding: 0
+
+}
+
+.topicMeta ul > li{
+    padding-right: 6px;
+    line-height: 1.25;
+    margin-top: 3pt;
+}
+
+div.page-wide
+{
+
+  border: 1px solid maroon;
+   margin-left: 0;
+   padding-left: 0;
+}
+
+div.page-wide-list-1
+{
+
+   margin-left: -12px;
+   padding-left: 0;
+}
+
+div.page-wide-list-2
+{
+
+   margin-left: -32px;
+   padding-left: 0;
+}
+
+div.page-wide-list-3
+{
+
+   margin-left: -36px;
+   padding-left: 0;
+}
+
+
+.page-wide > figure
+{
+   margin-left: 0;
+   padding-left: 0;
+}
+
+ul
+{
+ padding-left: 16px;   
+}
+
+ol.callout
+{
+   width:45%;
+   margin-top:20px;
+   text-align:left;
+   padding-left:0;
+}
+ul.checkbox
+{
+    list-style:none;
+    padding-left: 0;
+}
+/*ul.checkbox li:before
+{
+    /\*list-style-image: url('sqpurple.gif');*\/
+     content: "\2752\00a0 ";
+     font-size: 14pt;
+     
+}
+
+ul.checkbox2 li:before
+{
+    /\*list-style-image: url('sqpurple.gif');*\/
+     content: "\2611\00a0 ";
+     font-size: 14pt;
+     
+}*/
+
+ul.checkbox li > input
+{
+padding-right: 0;
+margin-right: 6px;
+padding-top: 0;
+padding-bottom: 0;
+margin-top:0;
+
+}
+ul li{
+    line-height:normal;
+/*    margin-top:5pt;
+    padding-left: 16px;*/
+}
+
+.messagepanel .typeofhazard {
+    line-height:18px;
+    margin-top:5pt;
+    padding-left: 16px;
+}
+
+
+ol 
+{
+    
+padding: 0 0 0 15px;
+margin-bottom: 10px;
+
+}
+
+ol > li > ol 
+{
+    
+padding: 0 0 0 15px;
+margin-bottom: 4px;
+
+}
+
+.entry > .ol, .entry > .ul
+{
+    padding: 0 0 0 2em;
+}
+
+.li > .ol
+{
+ padding-left: 1em;   
+}
+
+.ol > .li > .ul
+{
+ padding-left: 1em;
+ list-style-type: disc;
+ 
+}
+
+
+/* 
+	GEHC-86
+	Rally ID US331
+	2017-11-01: changed padding-top and padding-bottom from 6px each to 4px each
+	2017-11-03: added .sl .sli
+ */
+.ol .li, .ul .li, .simple .sli, .sl .sli
+{
+	padding-top: 4px;
+	padding-left: 10px; /* to match PDF ol/li indent */
+	padding-bottom: 4px;
+}
+
+
+.li img.break, img.break
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.dl
+{
+   padding: 0 0 0 5px; 
+}
+
+.dt
+{
+   padding-top: 5px; 
+
+}
+
+
+/* 
+	GEHC-86
+	Rally ID US331
+	2017-11-03: changed padding-top and padding-bottom from 5px each to 4px each
+ */
+.dd
+{
+   padding-left: 1em; 
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+li.step, li.substep
+{
+ line-height: 18px;
+ padding-bottom: 8px; 
+ padding-left: 16px;
+}
+
+ol.substeps
+{
+ padding-top: 8px;   
+}
+cmd,
+stepresult{
+    line-height:18px;
+    margin-top:5pt;
+    color:red;
+}
+
+step{
+    line-height:18px;
+    margin-top:5pt;
+}
+
+
+
+.metalabel {
+    color:#182A39;
+    font-weight:bold;
+}
+
+caption
+{
+   margin-left: 0;
+   text-align: left;
+}
+
+.tablecap 
+{
+    font-weight: bold;
+}
+
+.nohyphenate
+{
+      -webkit-hyphens:none;
+    -moz-hyphens:none;
+    hyphens:none;
+}
+.body a:visited{
+    color:#9999CC;
+}
+.body a:hover{
+    color:#CC0033;
+}
+
+.body a:link{
+    color:#3366BB;
+}
+.haztable
+{
+  margin-bottom: 10px;  
+  margin-top: 10px;
+}
+.hazul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.hazul li
+{
+  margin:0;
+  padding: 0;  
+}
+
+
+.hazLabel
+{
+    min-width: 20px;
+    width: auto;
+    min-height: 24px;
+    vertical-align: top;
+    
+}
+
+.hazLabel .note
+{
+    margin: 0;
+    padding: 0;
+}
+
+.iecLabel
+{
+    min-width: 0.5in;
+    width: auto;
+    min-height: 24px;
+    vertical-align: top;
+    padding-right: 6px;
+    
+}
+
+.iecLabel .note, .iecLabel .hazardstatement, .iecLabel .note ul, .iecLabel .note ul li
+{
+  margin-top: 0;  
+  padding-top:0;
+}
+
+.hazNote
+{
+    vertical-align: top;
+    padding-left: 10px;
+    
+}
+.hazNote .hazardstatement
+{
+  margin: 0;
+ padding: 0;  
+}
+.iecNote
+{
+    vertical-align: top;
+    padding: 0px 4px 4px 4px;
+    width: 40em;
+  /*  border: 1px solid #D9D9D9;*/
+    
+}
+
+.typeofhazard
+{
+  text-transform: uppercase;  
+}
+
+.iecNote .typeofhazard
+{
+  padding-left: 24px; 
+}
+
+.iecNote .howtoavoid
+{
+  padding-left: 24px; 
+}
+
+.iecNote .consequence
+{
+  padding-left: 24px; 
+}
+
+
+.hazard
+{
+ text-align: center;   
+}
+
+.noticelabel
+{
+    height: auto;
+    width: auto;
+    min-height: 33px;
+    min-width: 1.25in;
+    display: inline-block;
+    background-color: #004C97;
+    color: white;
+     padding: 4px 4px 4px 4px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: top;
+}
+
+.iecNote .noticelabel
+{
+    min-height: auto;
+    border: none;
+    padding: 0;
+    color: inherit;
+    background-color: inherit;
+    text-align: left;
+}
+
+.iecNote .dangerlabel
+{
+    border: none;
+    padding: 0;
+    color: inherit;
+  /*  background-color: inherit;*/
+    background-color: transparent;
+    
+}
+.dangerlabel
+{
+    height: auto;
+    width: auto;
+    min-width: 1.25in;
+    display: inline-block;
+    background-color: #DA291C;
+    border: 2px solid black;
+    color: white;
+    padding: 4px 4px 4px 4px;
+    vertical-align: top;
+}
+
+
+.iecNote .warninglabel
+{
+    border: none;
+    padding: 0;
+    /*color: inherit;*/
+    color: black;
+    background-color: inherit;
+    
+}
+.warninglabel
+{
+    height: auto;
+    width: auto;
+    min-width: 1.25in;
+    display: inline-block;
+    background-color: #E57200;
+    border: 2px solid black;
+      padding: 4px 4px 4px 4px;
+    vertical-align: top;
+}
+
+
+.iecNote .cautionlabel
+{
+    border: none;
+    padding: 0;
+    /*color: inherit;*/
+    color: black;
+    background-color: inherit;
+}
+.cautionlabel
+{
+    height: auto;
+    width: auto;
+    min-width: 1.25in;
+    display: inline-block;
+    background-color: #FFD100;
+    border: 2px solid black;
+    padding: 4px 4px 4px 4px;
+    vertical-align: top;
+}
+
+.hazNote .messagepanel
+{
+   padding-left: 0;
+   margin-bottom: 0;  
+}
+
+
+.iecNote .messagepanel
+{
+    margin-top: -6px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+ /* All note formats have the same default presentation */
+        .note { margin-top: 1em; margin-bottom : 1em;}
+        .notetitle { font-weight: bold; color:black; text-align:center; text-transform: uppercase}
+        .notelisttitle { font-weight: bold; text-transform: uppercase;  }
+        .tip { margin-top: 1em; margin-bottom : 1em;}
+        .tiptitle { font-weight: bold;  text-transform: uppercase; color: black;}
+        .fastpath { margin-top: 1em; margin-bottom : 1em;}
+        .fastpathtitle { font-weight: bold; text-transform: uppercase;  }
+        .important { margin-top: 1em; margin-bottom : 1em;}
+        .importanttitle { font-weight: bold; text-transform: uppercase; color: black;}
+        .remember { margin-top: 1em; margin-bottom : 1em;}
+        .remembertitle { font-weight: bold; text-transform: uppercase; color: black;}
+        .restriction { margin-top: 1em; margin-bottom : 1em;}
+        .restrictiontitle { font-weight: bold; text-transform: uppercase; color: black; }
+        .attention { margin-top: 1em; margin-bottom : 1em;}
+        .attentiontitle { font-weight: bold; text-transform: uppercase; color: black; }
+        .note.hazardstatement .dangertitle { font-weight: bold; text-align:center; text-transform: uppercase; color: white; vertical-align: top; margin-top:6px; display: inline-block;}
+        .note .dangertitle { font-weight: bold; color: black; text-transform: uppercase; margin-top: 7px; display: inline-block;}
+        .iecNote .dangertitle { font-weight: bold; text-align:center; text-transform: uppercase; color: black; vertical-align: top; margin-top: 0;}
+        .danger { margin-top: 0; margin-bottom : 0; padding: 0;}
+        .iecNote .danger { margin-top: 0; margin-bottom : 8px;}
+        .caution { margin-top: 1em; margin-bottom : 1em; font-weight: normal;}
+         .iecNote .caution { margin-top: 0; margin-bottom : 8px; }
+         .cautionlabel .cautiontitle { font-weight: bold; text-align:center; text-transform: uppercase; vertical-align: top;  margin-top:6px; display: inline-block;}
+         .cautiontitle { font-weight: bold; text-align:center; text-transform: uppercase; margin-top:6px; display: inline-block;}
+          .note .cautiontitle { font-weight: bold; text-transform: uppercase; margin-top: 7px; display: inline-block; color: black;}
+        /*.warning { margin-top: 1em; margin-bottom : 1em;}*/
+         .iecNote .warning { margin-top: 0; margin-bottom : 8px;}
+         .warninglabel .warningtitle { font-weight: bold; text-transform: uppercase; vertical-align: top; margin-top: 7px; display: inline-block;}
+        .warningtitle { font-weight: bold; text-align:center; text-transform: uppercase; margin-top:6px; display: inline-block; color: black;}
+        .note .warningtitle { font-weight: bold; text-transform: uppercase; margin-top: 7px; display: inline-block; color: black;}
+        .notice { margin-top: 1em; margin-bottom : 1em;}
+        .iecNote .notice { margin-top: 0; margin-bottom : 8px;}
+        .iecNote .noticetitle { font-weight: bold; text-align:center; text-transform: uppercase; vertical-align: top; color: black; font-style: normal;}
+        .noticetitle { font-weight: bold;  font-style: italic; text-align:center; text-transform: uppercase; vertical-align: top; color: white;  margin-top:6px; display: inline-block;}
+        .note .noticetitle { font-weight: bold; color: black; text-transform: uppercase; margin-top:0px; font-style:normal; display: inline-block;}
+         .note .noticetitle.iecTitle { font-weight: bold; color: black; text-transform: uppercase; margin-top: 0; font-style: normal; display: inline-block;}
+#myPassword, #myUserName{
+  width:100%;  
+}
+
+/*  custom inline styles */
+.userinput{
+    font-weight: bold; 
+    font-family:courier, fixed, monospace;
+}
+
+/*  custom override for bootstrap style */
+kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: inherit;
+    background-color: inherit;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* custom ge button styles */
+.ge-button,
+.ge button, .support {
+  display: inline-block;
+  margin: 0.5rem;
+  padding:0;
+  border-radius: 2.5rem;
+  border-style: solid;
+  border-width: 0.10rem;
+  background-color: #63666a;
+  border-color: #63666a;
+  color: #fff;
+  box-sizing: border-box;
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+  min-width: 1.0rem;
+  /* 3.5 - padding */
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  line-height: 1.25rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a.ge-button, .support {
+  text-decoration: none;
+}
+[type="button"].ge-button,
+[type="reset"].ge-button,
+[type="submit"].ge-button {
+  -webkit-appearance: button;
+}
+/* PSUEDO CLASSES */
+.ge-button:hover,
+.ge button:hover,
+.support:hover,
+.ge-button:active,
+.ge button:active,
+.support:active,
+.ge-button:focus,
+.ge button:focus,
+.support:focus{
+  background-color: #2f3133;
+  color: #fff;
+  border-color: #2f3133;
+  cursor: pointer;
+  outline-style: none;
+}
+.ge-button:disabled,
+.ge button:disabled,
+.support:disabled,
+.ge-button.-color--blue:disabled,
+.ge button.-color--blue:disabled,
+.support.-color--blue:disabled{
+  opacity: 0.33;
+  pointer-events: none;
+  color: #63666a;
+  background-color: #d7d8db;
+  border-color: #d7d8db;
+}
+
+td.entry {
+    padding: 5px;
+}
+
+.entry, .stentry
+{
+    padding: 5px;
+}
+
+.simpletable
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.choption {
+    text-align:inherit;
+}
+
+div.copyright{
+    font-size:8pt;
+    padding-top:1em;
+}
+
+.wh_footer a {
+    color: #5185cb;
+}
+
+.wh_child_links {
+    padding: 1.5em 1.5em 0.5em;
+}
+
+.wh_child_links .ullinks {
+    margin-bottom: 1em;
+    }

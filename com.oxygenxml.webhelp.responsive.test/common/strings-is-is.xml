@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2006 All Rights Reserved. -->
+
+<strings xml:lang="is-is">
+    <!-- Icelandic -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Legal Notice">Legal Notice</str>
+    <str name="Notice">TILKYNNING</str>
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+    <str name="OpenFrame">Opna með römmum</str>
+	<str name="Expand">Stækka</str>
+    <str name="Collapse">Fella allt saman</str>
+    <str name="Print">Prenta þessa síðu</str>
+	<str name="Email">Tölvupóstur</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Chapter_Title_Prefix">Kafli</str>
+    <str name="Appendix_Title">Viðauki</str>
+    <str name="Appendices_Title">Viðaukar</str>
+	<str name="Figure">Mynd</str>
+	<str name="Figure_List_Title">Myndalisti</str>
+    <str name="Table">Tafla</str>
+	<str name="Table_List_Title">Töflulisti</str>
+    <str name="Xref_Step">Skref</str>
+    <str name="Next topic">Næsti kafli</str>
+    <str name="Previous topic">Fyrri kafli</str>
+    <str name="Parent topic">Yfirkafli</str>
+    <str name="Required cleanup">Nauðsynleg hreinsun</str>
+    <str name="Draft comment">Tillaga um athugasemd</str>
+    <str name="Option">Valkostur</str>
+    <str name="Description">Lýsing</str>
+    <str name="Optional">Valfrjáls</str>
+    <str name="Required">Tilskilið</str>
+    <str name="Skip visual syntax diagram">Sleppa sjónrænu flæðiriti málskipunar</str>
+    <str name="Read syntax diagram">Lesa flæðirit málskipunar</str>
+    <str name="Start of change">Byrjun breytingar</str>
+    <str name="End of change">Lok breytingar</str>
+    <str name="Index">Nafnaskrá</str>
+    <str name="Content">Efni</str>
+    <str name="Search">Leita</str>
+    <str name="Special characters">Sérstök tákn</str>
+    <str name="Numerics">Tölur</str>
+    <str name="End notes">Lok athugasemda</str>
+    <str name="Artwork">Myndefni</str>
+    <str name="Syntax">Málskipan</str>
+    <str name="Type">Gerð</str>
+    <str name="Value">Gildi</str>
+	<str name="Choptionhd">Val</str>
+    <str name="Chdeschd">Leiðbeiningar</str>
+    <!-- Text that goes before a link to a topic (should be empty for most languages) -->
+    <str name="intro-to-topic-link"/>
+
+    <!-- peril notice labels -->
+    <str name="Note">TAKIÐ EFTIR</str>
+    <str name="Notes">Athugasemdir</str>
+	<str name="Notice">TILKYNNING</str>
+    <str name="Tip">ÁBENDING</str>
+    <str name="Fastpath">Flýtileið</str>
+    <str name="Important">MIKILVÆGT</str>
+    <str name="Attention">ATHUGIÐ</str>
+    <str name="Caution">AÐVÖRUN</str>
+    <str name="Danger">HÆTTA</str>
+    <str name="Remember">Mundu</str>
+    <str name="Restriction">Takmörkun</str>
+    <str name="Warning">VIÐVÖRUN</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">Efnisyfirlit</str>
+    <str name="Related concepts">Skyld hugtök</str>
+    <str name="Related tasks">Skyld verkefni</str>
+    <str name="Related reference">Skyld tilvísun</str>
+    <str name="Related information">Skyldar upplýsingar</str>
+
+    <str name="Prerequisite">Forsenda</str>
+    <str name="Prerequisites">Forsendur</str>
+    <str name="or">eða</str>
+
+    <!--Task section labels -->
+    <str name="task_context">Um þetta verk</str>
+    <str name="task_example">Dæmi</str>
+    <str name="task_postreq">Það sem gera þarf næst</str>
+    <str name="task_prereq">Áður en þú byrjar</str>
+    <str name="task_procedure">Aðferð</str>
+    <str name="task_results">Niðurstöður</str>
+
+    <str name="Copyright IBM">Copyright IBM Corp.</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+</strings>

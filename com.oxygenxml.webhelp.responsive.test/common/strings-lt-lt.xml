@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="lt-lt">
+    <!-- Lithuanian -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Legal Notice">Legal Notice</str>
+    <str name="Notice"><!--Notice--></str>
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+    <str name="OpenFrame">Atidaryti su rėmeliais</str>
+    <str name="Expand">Išskleisti</str>
+    <str name="Collapse">Sutraukti viską</str>
+    <str name="Print">Spausdinti šį puslapį</str>
+    <str name="Email">El. paštas</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Chapter_Title_Prefix">Skyrius</str>
+    <str name="Appendix_Title">Priedas</str>
+    <str name="Appendices_Titke">Priedai</str>
+    <str name="Figure">Paveikslėlis</str>
+    <str name="Figure_List_Title">Iliustracijų sąrašas</str>
+    <str name="Xref_Step">Veiksmas</str>
+    <str name="Table">Lentelė</str>
+    <str name="Table_List_Title">Lentelių sąrašas</str>
+    <str name="Next topic">Paskesnė tema</str>
+    <str name="Previous topic">Ankstesnė tema</str>
+    <str name="Parent topic">Pradinė tema</str>
+    <str name="Required cleanup">Reikalingas valymas</str>
+    <str name="Draft comment">Juodraščio komentarai</str>
+    <str name="Option">Variantas</str>
+    <str name="Description">Aprašas</str>
+    <str name="Optional">Nebūtina</str>
+    <str name="Required">Būtina</str>
+    <str name="Skip visual syntax diagram">Praleisti vaizdinę sintaksės diagramą</str>
+    <str name="Read syntax diagram">Skaityti sintaksės diagramą</str>
+    <str name="Start of change">Keitimų pradžia</str>
+    <str name="End of change">Keitimų pabaiga</str>
+    <str name="Index">Indeksas</str>
+    <str name="Content">Turinys</str>
+    <str name="Search">Paieška</str>
+    <str name="Special characters">Specialūs ženklai</str>
+    <str name="Numerics">Skaitmenys</str>
+    <str name="End notes">Galutinės pastabos</str>
+    <str name="Artwork">Paveikslėliai</str>
+    <str name="Syntax">Sintaksė</str>
+    <str name="Type">Tipas</str>
+    <str name="Value">Reikšmė</str>
+    <str name="Choptionhd">Pasirinkimas</str>
+    <str name="Chdeschd">Instrukcijos</str>
+    
+    <!-- Text that goes before a link to a topic -->
+    <str name="intro-to-topic-link"/>
+
+    <!-- peril notice labels -->
+    <str name="Note">PASTABA</str>
+    <str name="Notes">Pastabos</str>
+    <str name="Notice">PRANEŠIMAS</str>
+    <str name="Tip">PATARIMAS</str>
+    <str name="Fastpath">Nuoroda</str>
+    <str name="Important">SVARBU</str>
+    <str name="Attention">DĖMESIO</str>
+    <str name="Caution">ATSARGIAI</str>
+    <str name="Danger">PAVOJUS</str>
+    <str name="Remember">Atminkite</str>
+    <str name="Restriction">Apribojimas</str>
+    <str name="Warning">ĮSPĖJIMAI</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">Turinys</str>
+    <str name="Related concepts">Susijusios sąvokos</str>
+    <str name="Related tasks">Susijusios užduotys</str>
+    <str name="Related reference">Susijusi nuoroda</str>
+    <str name="Related information">Susijusi informacija</str>
+
+    <str name="Prerequisite">Nuoroda</str>
+    <str name="Prerequisites">Nuorodos</str>
+    <str name="or">arba</str>
+
+    <!--Task section labels -->
+    <str name="task_context">Apie šią užduotį</str>
+    <str name="task_example">Pavyzdys</str>
+    <str name="task_postreq">Ką daryti toliau</str>
+    <str name="task_prereq">Prieš pradedant</str>
+    <str name="task_procedure">Procedūra</str>
+    <str name="task_results">Rezultatai</str>
+
+    <str name="Copyright">Copyright</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+</strings>

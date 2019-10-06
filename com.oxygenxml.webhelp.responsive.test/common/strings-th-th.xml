@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="th-th">
+    <!-- Thai -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Legal Notice">Legal Notice</str>
+    <str name="Notice">ข้อควรทราบ</str>
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+    <str name="OpenFrame">เปิดพร้อมกรอบ</str>
+	<str name="Expand">ขยาย</str>
+    <str name="Collapse">ย่อทั้งหมด</str>
+    <str name="Print">พิมพ์หน้านี้</str>
+	<str name="Email">อีเมล</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Chapter_Title_Prefix">บท</str>
+	<str name="Appendix_Title">ภาคผนวก</str>
+	<str name="Appendices_Title">ภาคผนวก</str>
+	<str name="Figure">ภาพ</str>
+    <str name="Table">ตาราง</str>
+	<str name="Table_List_Title">รายการตาราง</str>
+	<str name="Figure_List_Title">รายการภาพ</str>
+	<str name="Xref_Step">ขั้นตอน</str>
+    <str name="Next topic">หัวข้อถัดไป</str>
+    <str name="Previous topic">หัวข้อก่อนหน้า</str>
+    <str name="Parent topic">หัวข้อต้นทาง</str>
+    <str name="Required cleanup">การแก้ไขที่ต้องการ</str>
+    <str name="Draft comment">ข้อคิดเห็นฉบับร่าง</str>
+    <str name="Option">ทางเลือก</str>
+    <str name="Description">คำอธิบาย</str>
+    <str name="Optional">ทางเลือก</str>
+    <str name="Required">บังคับ</str>
+    <str name="Skip visual syntax diagram">ข้ามการดู syntax diagram</str>
+    <str name="Read syntax diagram">อ่าน syntax diagram</str>
+    <str name="Start of change">เริ่มต้นของการเปลี่ยนแปลง</str>
+    <str name="End of change">สิ้นสุดของการเปลี่ยนแปลง</str>
+    <str name="Index">ดัชนี</str>
+    <str name="Content">เนื้อหา</str>
+    <str name="Search">ค้นหา</str>
+    <str name="Special characters">อักขระพิเศษ</str>
+    <str name="Numerics">ตัวเลข</str>
+    <str name="End notes">หมายเหตุท้าย</str>
+    <str name="Artwork">อาร์ตเวิร์ก</str>
+    <str name="Syntax">Syntax</str>
+    <str name="Type">ประเภท</str>
+    <str name="Value">ค่า</str>
+	<str name="Choptionhd">ตัวเลือก</str>
+	<str name="Chdeschd">คำแนะนำ</str>
+    <!-- Text that goes before a link to a topic -->
+    <str name="intro-to-topic-link"/>
+
+    <!-- peril notice labels -->
+    <str name="Note">หมายเหตุ</str>
+    <str name="Notes">หมายเหตุ</str>
+	<str name="Notice">ข้อควรทราบ</str>
+    <str name="Tip">คำแนะนำ</str>
+    <str name="Fastpath">ทางด่วน</str>
+    <str name="Important">ข้อสำคัญ</str>
+    <str name="Attention">ระวัง</str>
+    <str name="Caution">ข้อควรระวัง</str>
+    <str name="Danger">อันตราย</str>
+    <str name="Remember">เตือนความจำ</str>
+    <str name="Restriction">ข้อจำกัด</str>
+    <str name="Warning">คำเตือน</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">สารบัญ</str>
+    <str name="Related concepts">หลักการที่เกี่ยวข้อง</str>
+    <str name="Related tasks">งานที่เกี่ยวข้อง</str>
+    <str name="Related reference">สิ่งอ้างอิงที่เกี่ยวข้อง</str>
+    <str name="Related information">ข้อมูลที่เกี่ยวข้อง</str>
+
+    <str name="Prerequisite">สิ่งที่ต้องทำก่อน</str>
+    <str name="Prerequisites">สิ่งที่ต้องทำก่อน</str>
+    <str name="or">หรือ</str>
+
+    <!--Task section labels -->
+    <str name="task_context">เกี่ยวกับภารกิจนี้</str>
+    <str name="task_example">ตัวอย่าง</str>
+    <str name="task_postreq">สิ่งที่ต้องทำต่อไป</str>
+    <str name="task_prereq">ก่อนเริ่มต้นภารกิจ</str>
+    <str name="task_procedure">กระบวนการ</str>
+    <str name="task_results">ผลลัพธ์</str>
+
+    <str name="Copyright">ลิขสิทธิ์ของ</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+</strings>

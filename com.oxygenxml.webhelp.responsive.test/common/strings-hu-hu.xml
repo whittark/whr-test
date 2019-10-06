@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="hu-hu">
+    <!-- Hungarian -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Legal Notice">Legal Notice</str>
+    <str name="Notice">ÉRTESÍTÉS</str>
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+    <str name="OpenFrame">Megnyitás keretben</str>
+    <str name="Collapse">Mindet bezár</str>
+    <str name="Expand">Lenyit</str>
+    <str name="Print">Oldal nyomtatása</str>
+    <str name="Email">E-mail</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Chapter_Title_Prefix">Fejezet</str>
+    <str name="Appendix">Függelék</str>
+    <str name="Figure">Ábra</str>
+    <str name="Figure_List_Title">Ábrajegyzék</str>
+    <str name="Table">Táblázat</str>
+    <str name="Table_List_Title">Táblázatjegyzék</str>
+    <str name="Xref_Step">Lépés</str>
+    <str name="Next topic">Következő téma</str>
+    <str name="Previous topic">Előző téma</str>
+    <str name="Parent topic">Főtéma</str>
+    <str name="Required cleanup">Tisztázandó</str>
+    <str name="Draft comment">Vázlat megjegyzés</str>
+    <str name="Option">Választás</str>
+    <str name="Description">Utasítások</str>
+    <str name="Optional">Választható</str>
+    <str name="Required">Kötelező</str>
+    <str name="Skip visual syntax diagram">Szintaxis diagram kihagyása</str>
+    <str name="Read syntax diagram">Szintaxis diagram olvasása</str>
+    <str name="Start of change">Módosítás kezdete</str>
+    <str name="End of change">Módosítás vége</str>
+    <str name="Index">Tárgymutató</str>
+    <str name="Content">Tartalom</str>
+    <str name="Search">Keresés</str>
+    <str name="Special characters">Speciális karakterek</str>
+    <str name="Numerics">Számok</str>
+    <str name="End notes">Zárójegyzetek</str>
+    <str name="Artwork">Illusztráció</str>
+    <str name="Syntax">Szintaxis</str>
+    <str name="Type">Típus</str>
+    <str name="Value">Érték</str>
+    <str name="Choptionhd">Opció</str>
+    <str name="Chdeschd">Utasítások</str>
+    <!-- Text that goes before a link to a topic -->
+    <str name="intro-to-topic-link"/>
+
+    <!-- peril notice labels -->
+    <str name="Note">Megjegyzés</str>
+    <str name="Notes">Megjegyzések</str>
+    <str name="Tip">TANÁCS</str>
+    <str name="Fastpath">Közvetlen almenüre lépés</str>
+    <str name="Important">Fontos</str>
+    <str name="Attention">FIGYELMEZTETÉS</str>
+    <str name="Caution">VIGYÁZAT</str>
+    <str name="Danger">VESZÉLY!</str>
+    <str name="Remember">Ne feledje</str>
+    <str name="Restriction">Korlátozás</str>
+    <str name="Warning">FIGYELM</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">Tartalom</str>
+    <str name="Related concepts">Kapcsolódó témák</str>
+    <str name="Related tasks">Kapcsolódó feladatok</str>
+    <str name="Related reference">Kapcsolódó hivatkozások</str>
+    <str name="Related information">Kapcsolódó információk</str>
+
+    <str name="Prerequisite">Előfeltétel</str>
+    <str name="Prerequisites">Előfeltételek</str>
+    <str name="or">vagy</str>
+
+    <!--Task section labels -->
+    <str name="task_context">Erről a feladatról</str>
+    <str name="task_example">Példa</str>
+    <str name="task_postreq">Következő lépések</str>
+    <str name="task_prereq">Mielőtt elkezdené</str>
+    <str name="task_procedure">Eljárás</str>
+    <str name="task_results">Eredmények</str>
+ 
+ <!--Added March 2018-->
+   <str name="Prerequisite Open_MR">Előfeltételek</str>
+   <str name="Prerequisite Open_BASIC">Mielőtt hozzákezd</str>
+   <str type="webworks" name="Postrequisite Open_MR" attribute="bullet-character">Befejezés</str>
+   <str type="webworks" name="Postrequisite Open_BASIC" attribute="bullet-character">Miután befejezte</str>
+   <str type="webworks" name="Steps Open_MR" attribute="bullet-character">Folyamat</str>
+   <str type="webworks" name="Steps Open_BASIC" attribute="bullet-character">Utasítások lépésről lépésre</str>
+   <str type="webworks" name="Result Open_MR" attribute="bullet-character"><!--Translate-->Results</str>
+   <str type="webworks" name="Result Open_BASIC" attribute="bullet-character"><!--Translate-->Results</str>
+   
+   <!--Tabs and webhelp header stuff added March 2018-->
+   <str name="webhelp.content" js="true" php="false">Tartalom</str>
+   <str name="webhelp.search" js="true" php="false">Keresés</str>
+   <str name="webhelp.index" js="true" php="false">Névmutató</str>
+    <str name="Copyright">Copyright</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+</strings>

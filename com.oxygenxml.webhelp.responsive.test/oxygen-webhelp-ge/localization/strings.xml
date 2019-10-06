@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    
+Oxygen WebHelp Plugin
+Copyright (c) 1998-2017 Syncro Soft SRL, Romania.  All rights reserved.
+
+-->
+
+<langlist>
+    <lang xml:lang="ar"    filename="../../../common/strings-ar-eg.xml"/>
+    <lang xml:lang="ar-eg" filename="../../../common/strings-ar-eg.xml"/>
+    <lang xml:lang="be"    filename="../../../common/strings-be-by.xml"/>
+    <lang xml:lang="be-by" filename="../../../common/strings-be-by.xml"/>
+    <lang xml:lang="bg"    filename="../../../common/strings-bg-bg.xml"/>
+    <lang xml:lang="bg-bg" filename="../../../common/strings-bg-bg.xml"/>
+    <lang xml:lang="ca"    filename="../../../common/strings-ca-es.xml"/>
+    <lang xml:lang="ca-es" filename="../../../common/strings-ca-es.xml"/>
+    <lang xml:lang="cs"    filename="../../../common/strings-cs-cz.xml"/>
+    <lang xml:lang="cs-cz" filename="../../../common/strings-cs-cz.xml"/>
+    <lang xml:lang="da"    filename="../../../common/strings-da-dk.xml"/>
+    <lang xml:lang="da-dk" filename="../../../common/strings-da-dk.xml"/>
+    <lang xml:lang="de"    filename="../../../common/strings-de-de.xml"/>
+    <lang xml:lang="de-ch" filename="../../../common/strings-de-de.xml"/>
+    <lang xml:lang="de-de" filename="../../../common/strings-de-de.xml"/>
+    <lang xml:lang="el"    filename="../../../common/strings-el-gr.xml"/>
+    <lang xml:lang="el-gr" filename="../../../common/strings-el-gr.xml"/>
+    <lang xml:lang="en"    filename="../../../common/strings-en-us.xml"/>
+    <lang xml:lang="en-ca" filename="../../../common/strings-en-us.xml"/>
+    <lang xml:lang="en-gb" filename="../../../common/strings-en-us.xml"/>
+    <lang xml:lang="en-us" filename="../../../common/strings-en-us.xml"/>
+    <lang xml:lang="es"    filename="../../../common/strings-es-es.xml"/>
+    <lang xml:lang="es-es" filename="../../../common/strings-es-es.xml"/>
+    <!-- Suite/EMC 28-Jun-2012 - just discovered mexican spanish missing from this list -->
+    <lang xml:lang="es-mx" filename="../../../common/strings-es-mx.xml"/>
+    <lang xml:lang="es-419" filename="../../../common/strings-es-es.xml"/>
+    <lang xml:lang="et"    filename="../../../common/strings-et-ee.xml"/>
+    <lang xml:lang="et-ee" filename="../../../common/strings-et-ee.xml"/>
+    <lang xml:lang="fi"    filename="../../../common/strings-fi-fi.xml"/>
+    <lang xml:lang="fi-fi" filename="../../../common/strings-fi-fi.xml"/>
+    <lang xml:lang="fr"    filename="../../../common/strings-fr-fr.xml"/>
+    <lang xml:lang="fr-be" filename="../../../common/strings-fr-fr.xml"/>
+    <lang xml:lang="fr-ca" filename="../../../common/strings-fr-ca.xml"/>
+    <lang xml:lang="fr-ch" filename="../../../common/strings-fr-fr.xml"/>
+    <lang xml:lang="fr-fr" filename="../../../common/strings-fr-fr.xml"/>
+    <lang xml:lang="he"    filename="../../../common/strings-he-il.xml"/>
+    <lang xml:lang="he-il" filename="../../../common/strings-he-il.xml"/>
+    <lang xml:lang="hr"    filename="../../../common/strings-hr-hr.xml"/>
+    <lang xml:lang="hr-hr" filename="../../../common/strings-hr-hr.xml"/>
+    <lang xml:lang="hu"    filename="../../../common/strings-hu-hu.xml"/>
+    <lang xml:lang="hu-hu" filename="../../../common/strings-hu-hu.xml"/>
+    <lang xml:lang="hi"    filename="../../../common/strings-hi-in.xml"/>
+    <lang xml:lang="hi-in" filename="../../../common/strings-hi-in.xml"/>
+    <lang xml:lang="id"    filename="../../../common/strings-id-id.xml"/>
+    <lang xml:lang="id-id" filename="../../../common/strings-id-id.xml"/>
+    <lang xml:lang="is"    filename="../../../common/strings-is-is.xml"/>
+    <lang xml:lang="is-is" filename="../../../common/strings-is-is.xml"/>
+    <lang xml:lang="it"    filename="../../../common/strings-it-it.xml"/>
+    <lang xml:lang="it-ch" filename="../../../common/strings-it-it.xml"/>
+    <lang xml:lang="it-it" filename="../../../common/strings-it-it.xml"/>
+    <lang xml:lang="ja"    filename="../../../common/strings-ja-jp.xml"/>
+    <lang xml:lang="ja-jp" filename="../../../common/strings-ja-jp.xml"/>
+    <lang xml:lang="ko"    filename="../../../common/strings-ko-kr.xml"/>
+    <lang xml:lang="ko-kr" filename="../../../common/strings-ko-kr.xml"/>
+    <lang xml:lang="lt"    filename="../../../common/strings-lt-lt.xml"/>
+    <lang xml:lang="lt-lt" filename="../../../common/strings-lt-lt.xml"/>
+    <lang xml:lang="lv"    filename="../../../common/strings-lv-lv.xml"/>
+    <lang xml:lang="lv-lv" filename="../../../common/strings-lv-lv.xml"/>
+    <lang xml:lang="mk"    filename="../../../common/strings-mk-mk.xml"/>
+    <lang xml:lang="mk-mk" filename="../../../common/strings-mk-mk.xml"/>
+    <lang xml:lang="nl"    filename="../../../common/strings-nl-nl.xml"/>
+    <lang xml:lang="nl-be" filename="../../../common/strings-nl-nl.xml"/>
+    <lang xml:lang="nl-nl" filename="../../../common/strings-nl-nl.xml"/>
+    <lang xml:lang="no"    filename="../../../common/strings-no-no.xml"/>
+    <lang xml:lang="no-no" filename="../../../common/strings-no-no.xml"/>
+    <lang xml:lang="pl"    filename="../../../common/strings-pl-pl.xml"/>
+    <lang xml:lang="pl-pl" filename="../../../common/strings-pl-pl.xml"/>
+    <lang xml:lang="pt"    filename="../../../common/strings-pt-pt.xml"/>
+    <lang xml:lang="pt-br" filename="../../../common/strings-pt-br.xml"/>
+    <lang xml:lang="pt-pt" filename="../../../common/strings-pt-pt.xml"/>
+    <lang xml:lang="ro"    filename="../../../common/strings-ro-ro.xml"/>
+    <lang xml:lang="ro-ro" filename="../../../common/strings-ro-ro.xml"/>
+    <lang xml:lang="ru"    filename="../../../common/strings-ru-ru.xml"/>
+    <lang xml:lang="ru-ru" filename="../../../common/strings-ru-ru.xml"/>
+    <lang xml:lang="sk"    filename="../../../common/strings-sk-sk.xml"/>
+    <lang xml:lang="sk-sk" filename="../../../common/strings-sk-sk.xml"/>
+    <lang xml:lang="sl"    filename="../../../common/strings-sl-si.xml"/>
+    <lang xml:lang="sl-si" filename="../../../common/strings-sl-si.xml"/>
+    <!-- Ryffine Albanian Update -->
+    <lang xml:lang="sq" filename="../../../common/strings-sq-al.xml"/>
+    <lang xml:lang="sq-al" filename="../../../common/strings-sq-al.xml"/>
+    <lang xml:lang="sr"    filename="../../../common/strings-sr-sp.xml"/>
+    <lang xml:lang="sr-rs" filename="../../../common/strings-sr-sp.xml"/>
+    <lang xml:lang="sr-sp" filename="../../../common/strings-sr-sp.xml"/>
+    <lang xml:lang="sr-latn-rs" filename="../../../common/strings-sr-latn-rs.xml"/>
+    <lang xml:lang="sv"    filename="../../../common/strings-sv-se.xml"/>
+    <lang xml:lang="sv-se" filename="../../../common/strings-sv-se.xml"/>
+    <lang xml:lang="th"    filename="../../../common/strings-th-th.xml"/>
+    <lang xml:lang="th-th" filename="../../../common/strings-th-th.xml"/>
+    <lang xml:lang="tr"    filename="../../../common/strings-tr-tr.xml"/>
+    <lang xml:lang="tr-tr" filename="../../../common/strings-tr-tr.xml"/>
+    <lang xml:lang="uk"    filename="../../../common/strings-uk-ua.xml"/>
+    <lang xml:lang="uk-ua" filename="../../../common/strings-uk-ua.xml"/>
+    <lang xml:lang="ur"    filename="../../../common/strings-ur-pk.xml"/>
+    <lang xml:lang="ur-pk" filename="../../../common/strings-ur-pk.xml"/>
+    <lang xml:lang="vi"    filename="../../../common/strings-vi-vn.xml"/>
+    <lang xml:lang="vi-vn" filename="../../../common/strings-vi-vn.xml"/>
+    <lang xml:lang="zh"    filename="../../../common/strings-zh-cn.xml"/>
+    <lang xml:lang="zh-cn" filename="../../../common/strings-zh-cn.xml"/>
+    <lang xml:lang="zh-hans" filename="../../../common/strings-zh-cn.xml"/>
+    <lang xml:lang="zh-tw" filename="../../../common/strings-zh-tw.xml"/>
+    <lang xml:lang="zh-hant" filename="../../../common/strings-zh-tw.xml"/>
+</langlist>

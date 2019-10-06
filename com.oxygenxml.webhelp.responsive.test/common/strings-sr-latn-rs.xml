@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="sr-Latn-RS">
+    <!-- Serbian Latin -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Legal Notice">Legal Notice</str>
+    <str name="Notice">OBAVEŠTENJE</str>
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+    <str name="OpenFrame">Otvorite sa okvirima</str>
+	<str name="Expand">Proširi</str>
+    <str name="Collapse">Spusti sve</str>
+    <str name="Print">Štampaj ovu stranicu</str>
+	<str name="Email">E-pošta</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Chapter_Title_Prefix">Poglavlje</str>
+	<str name="Appendix_Title">Dodatak</str>
+	<str name="Appendices_Title">Dodaci</str>
+	<str name="Figure">Slika</str>
+	<str name="Figure_List_Title">Spisak slika</str>
+    <str name="Table">Tabela</str>
+	<str name="Table_List_Title">Spisak tabela</str>
+	<str name="Xref_Step">Korak</str>
+    <str name="Next topic">Sledeća tema</str>
+    <str name="Previous topic">Prethodna tema</str>
+    <str name="Parent topic">Nadređena tema</str>
+    <str name="Required cleanup">Neophodno čišćenje</str>
+    <str name="Draft comment">Komentar na koncept</str>
+    <str name="Option">Izbor</str>
+    <str name="Description">Uputstva</str>
+    <str name="Optional">Neobavezno</str>
+    <str name="Required">Neophodno</str>
+    <str name="Skip visual syntax diagram">Preskočite vizualni sintaksni dijagram</str>
+    <str name="Read syntax diagram">Pročitajte vizualni sintaksni dijagram</str>
+    <str name="Start of change">Početak promene</str>
+    <str name="End of change">Kraj promene</str>
+    <str name="Index">Indeks</str>
+    <str name="Content">Sadržaj</str>
+    <str name="Search">Potraži</str>
+    <str name="Special characters">Posebni Znaci</str>
+    <str name="Numerics">Numerici</str>
+    <str name="End notes">Završne primedbe</str>
+    <str name="Artwork">Ilustracije</str>
+    <str name="Syntax">Sintaksa</str>
+    <str name="Type">Vrsta</str>
+    <str name="Value">Vrednost</str>
+	<str name="Choptionhd">Izbor</str>
+	<str name="Chdeschd">Uputstva</str>
+    <!-- Text that goes before a link to a topic -->
+    <str name="intro-to-topic-link"/>
+
+    <!-- peril notice labels -->
+    <str name="Note">BELEŠKA</str>
+    <str name="Notes">Napomene</str>
+	<str name="Notice">OBAVEŠTENJE</str>
+    <str name="Tip">SAVET</str>
+    <str name="Fastpath">Prečica</str>
+    <str name="Important">VAŽNO</str>
+    <str name="Attention">PAŽNJA</str>
+    <str name="Caution">OPREZ</str>
+    <str name="Danger">OPASNOST</str>
+    <str name="Remember">Zapamtite</str>
+    <str name="Restriction">Ograničenje</str>
+    <str name="Warning">UPOZORENJE</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">Sadržaj</str>
+    <str name="Related concepts">Srodni koncepti</str>
+    <str name="Related tasks">Srodni zadaci</str>
+    <str name="Related reference">Srodna referenca</str>
+    <str name="Related information">Srodna informacija</str>
+
+    <str name="Prerequisite">Preduslov</str>
+    <str name="Prerequisites">Preduslovi</str>
+    <str name="or">or</str>
+
+    <!--Task section labels -->
+    <str name="task_context">O ovom zadatku</str>
+    <str name="task_example">Primer</str>
+    <str name="task_postreq">Šta uraditi sledeće</str>
+    <str name="task_prereq">Pre nego što počnete</str>
+    <str name="task_procedure">Postupak</str>
+    <str name="task_results">Rezultat</str>
+	
+    <!--Added March 2018-->
+	<str name="Prerequisite Open_MR">Uslovi</str>
+    <str name="Prerequisite Open_BASIC">Pre nego počnnte</str>
+    <str type="webworks" name="Postrequisite Open_MR" attribute="bullet-character">Završetak</str>
+    <str type="webworks" name="Postrequisite Open_BASIC" attribute="bullet-character">Pošto završite</str>
+    <str type="webworks" name="Steps Open_MR" attribute="bullet-character">Postupak</str>
+    <str type="webworks" name="Steps Open_BASIC" attribute="bullet-character">Uputstva korak po korak</str>
+    <str type="webworks" name="Result Open_MR" attribute="bullet-character"><!--Translate-->Results</str>
+    <str type="webworks" name="Result Open_BASIC" attribute="bullet-character"><!--Translate-->Results</str>
+   
+    <!--Tabs and webhelp header stuff added March 2018-->
+    <str name="webhelp.content" js="true" php="false">Sadržaj</str>
+    <str name="webhelp.search" js="true" php="false">Potraži</str>
+    <str name="webhelp.index" js="true" php="false">Indeks</str>	
+
+    <str name="Copyright">Copyright</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+</strings>

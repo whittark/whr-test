@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+   Sourceforge.net. See the accompanying license.txt file for 
+   applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="kk-kz">
+   <!-- Kazakh -->
+   <!--Translation may be needed for legal notice and footer text.-->
+   <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+   <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+      subject to change without notice. This information is the confidential and proprietary information
+      of General Electric Company. Unauthorized duplication is strictly prohibited.</str>-->
+   <str name="Legal Notice">Legal Notice</str>
+   <str name="Notice">ЗЕЙІН САЛЫҢЫЗ</str>
+   <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+   <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+   <str name="Web Display">ge.com</str><!--Do not translate-->
+   <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+   <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+   <str name="OpenFrame">Жақтаумен ашу</str>
+   <str name="Expand">Кеңейту</str>
+   <str name="Collapse">Барлығын қысқарту</str>
+   <str name="Print">Бетті баспаға шығару</str>
+   <str name="Email">Email</str>
+   
+   <!-- various labels (not author controlled) -->
+   <str name="Chapter_Title_Prefix">Бөлім</str>
+   <str name="Appendix_Title">Қосымша</str>
+   <str name="Appendices_Title">Қосымшалар</str>
+   <str name="Figure">Сурет</str>
+   <str name="Figure_List_Title">Суреттер тізімі</str>
+   <str name="Table">Кесте</str>
+   <str name="Table_List_Title">Кестелер тізімі</str>
+   <str name="Xref_Step">Қадам</str>
+   <str name="Next topic"><!--Translate-->Next topic</str>
+   <str name="Previous topic"><!--Translate-->Previous topic</str>
+   <str name="Parent topic"><!--Translate-->Parent topic</str>
+   <str name="Required cleanup"><!--Translate-->Required cleanup</str>
+   <str name="Draft comment"><!--Translate-->Draft comment</str>
+   <str name="Option"><!--Translate-->Option</str>
+   <str name="Description"><!--Translate-->Description</str>
+   <str name="Optional"><!--Translate-->Optional</str>
+   <str name="Required"><!--Translate-->Required</str>
+   <str name="Skip visual syntax diagram"><!--Translate-->Skip visual syntax diagram</str>
+   <str name="Read syntax diagram"><!--Translate-->Read syntax diagram</str>
+   <str name="Start of change"><!--Translate-->Start of change</str>
+   <str name="End of change"><!--Translate-->End of change</str>
+   <str name="Index">Алфавиттік көрсеткіш</str>
+   <str name="Content">Мазмұны</str>
+   <str name="Search">Іздеу</str>
+   <str name="Special characters"><!--Translate-->Special characters</str>
+   <str name="Numerics"><!--Translate-->Numerics</str>
+   <str name="End notes"><!--Translate-->End notes</str>
+   <str name="Artwork"><!--Translate-->Artwork</str>
+   <str name="Syntax"><!--Translate-->Syntax</str>
+   <str name="Type"><!--Translate-->Type</str>
+   <str name="Value"><!--Translate-->Value</str>
+   <str name="Choptionhd">Таңдау</str>
+   <str name="Chdeschd">Нұсқаулық</str>
+   <!-- Text that goes before a link to a topic -->
+   <str name="intro-to-topic-link"></str>
+
+   <!-- peril notice labels -->
+   <str name="Note">ЕСКЕРТПЕ</str>
+   <str name="Notes"><!--Translate-->notes</str>
+   <str name="Notice">ЗЕЙІН САЛЫҢЫЗ</str>
+   <str name="Tip">КЕҢЕС</str>
+   <str name="Fastpath"><!--Translate-->fastpath</str>
+   <str name="Important">МАҢЫЗДЫ АҚПАРАТ</str>
+   <str name="Attention">НАЗАР АУДАРЫҢЫЗ</str>
+   <str name="Caution">АБАЙЛАҢЫЗ</str>
+   <str name="Danger">ҚАУІП</str>
+   <str name="Remember"><!--Translate-->remember</str>
+   <str name="Restriction"><!--Translate-->restriction</str>
+   <str name="Warning">ЕСКЕРТУ</str>
+
+   <!-- default title text for section level generated sections -->
+   <str name="Contents">Contents<!--Translate--></str>
+   <str name="Related concepts"><!--Translate-->Related concepts</str>
+   <str name="Related tasks"><!--Translate-->Related tasks</str>
+   <str name="Related reference"><!--Translate-->Related reference</str>
+   <str name="Related information"><!--Translate-->Related information</str>
+
+   <str name="Prerequisite"><!--Translate-->Prerequisite</str>
+   <str name="Prerequisites"><!--Translate-->Prerequisites</str>
+   <str name="or"><!--Translate-->or</str>
+
+   <!--Task section labels -->
+   <str name="task_context"><!--Translate-->About this task</str>
+   <str name="task_example"><!--Translate-->Example</str>
+   <str name="task_postreq"><!--Translate-->What to do next</str>
+   <str name="task_prereq"><!--Translate-->Before you begin</str>
+   <str name="task_procedure"><!--Translate-->Procedure</str>
+   <str name="task_results"><!--Translate-->Results</str>
+
+   <str name="Copyright">Copyright</str>
+
+   <!-- Symbols -->
+   <str name="OpenQuote">"</str>
+   <str name="CloseQuote">"</str>
+   <str name="ColonSymbol">:</str>
+
+</strings>

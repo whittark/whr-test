@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+     Sourceforge.net. See the accompanying license.txt file for 
+     applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="ar-eg">
+     <!-- Arabic -->
+     <!--Translation may be needed for legal notice and footer text.-->
+     <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+     <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information
+          is subject to change without notice. This information is the confidential and proprietary
+          information of General Electric Company. Unauthorized duplication is strictly
+          prohibited.</str>-->
+     <str name="Legal Notice">Legal Notice</str>
+     <str name="Notice"><!--Notice--></str>
+     <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+     <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+     <str name="Web Display">ge.com</str><!--Do not translate-->
+     <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+     <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+     <str name="OpenFrame"><!--Translate-->فتح مع إطارات</str>
+	 <str name="Expand"><!--Translate-->توسيع</str>
+     <str name="Collapse"><!--Translate-->إغلاق الكل</str>
+     <str name="Print"><!--Translate-->طباعة الصفحة</str>
+     <str name="Email"><!--Translate-->البريد الإليكتروني</str>
+	 
+     <!-- various labels (not author controlled) -->
+     <str name="Figure">رسم توضيحي</str>
+     <str name="Table">الجدول</str>
+     <str name="Next topic">الموضوع التالي</str>
+     <str name="Previous topic">الموضوع السابق</str>
+     <str name="Parent topic">الموضوع الأصلي</str>
+     <str name="Required cleanup">الاخلاء المطلوب</str>
+     <str name="Draft comment">تعليق المسودة</str>
+     <str name="Option">اختيار</str>
+     <str name="Description">تعليمات</str>
+     <str name="Optional">اختياري</str>
+     <str name="Required">مطلوب</str>
+     <str name="Skip visual syntax diagram">تخطي شكل الصيغة المرئية</str>
+     <str name="Read syntax diagram">شكل صيغة القراءة</str>
+     <str name="Start of change">بداية التغيير</str>
+     <str name="End of change">نهاية التغيير</str>
+
+     <str name="Content">المحتوى<!--Translate--></str>
+     <str name="Search">بحث<!--Translate--></str>
+     <str name="Index">فهرس </str>
+     <str name="Special characters">الحروف الخاصة</str>
+     <str name="Numerics">أرقام</str>
+     <str name="End notes">ملحوظات النهاية</str>
+     <str name="Artwork">عمل فني</str>
+     <str name="Syntax">الصيغة</str>
+     <str name="Type">النوع</str>
+     <str name="Value">القيمة</str>
+     <!-- Text that goes before a link to a topic -->
+     <str name="intro-to-topic-link"/>
+
+     <!-- peril notice labels -->
+     <str name="Note">ملاحظة</str>
+     <str name="Notes">ملاحظات</str>
+	 <str name="Notice">ملاحظة</st
+     <str name="Tip">إشارة</str>
+     <str name="Fastpath">طريقة مختصرة</str>
+     <str name="Important">هام</str>
+     <str name="Attention">انتباه</str>
+     <str name="Caution">تنبيه</str>
+     <str name="Danger">خطر</str>
+     <str name="Remember">تذكر</str>
+     <str name="Restriction">ممنوع</str>
+     <str name="Warning">تحذير</str>
+
+     <!-- default title text for section level generated sections -->
+     <str name="Contents">المحتويات</str>
+     <str name="Related concepts">المفاهيم المتعلقة</str>
+     <str name="Related tasks">المهام المتعلقة</str>
+     <str name="Related reference">المرجع المتعلق</str>
+     <str name="Related information">المعلومات المتعلقة</str>
+
+     <str name="Prerequisite">متطلب رئيسي</str>
+     <str name="Prerequisites">متطلبات رئيسية</str>
+     <str name="or">or</str>
+
+     <!--Task section labels -->
+     <str name="task_context">نبذة عن هذه المهمة</str>
+     <str name="task_example">مثال</str>
+     <str name="task_postreq">ما تريد القيام به بعد الآن</str>
+     <str name="task_prereq">قبل البدء</str>
+     <str name="task_procedure">اجراء</str>
+     <str name="task_results">النتائج</str>
+
+     <str name="Copyright">حقوق النشر لشركة</str>
+
+     <!-- Symbols -->
+     <str name="OpenQuote">"</str>
+     <str name="CloseQuote">"</str>
+     <str name="ColonSymbol">:</str>
+
+	 <!-- added on 23 Feb --->
+	 <str name="webhelp.content" js="true" php="false">المحتوى</str>
+     <str name="webhelp.search" js="true" php="false">بحث</str>
+	 <str name="webhelp.index" js="true" php="false">فهرس</str>
+	 
+	 <str name="Xref_Step">خطوة</str>
+	 <str type="webworks" name="XREF step" attribute="character-prefix">خطوة</str>
+     <str type="webworks" name="XREF li" attribute="character-prefix">خطوة</str>
+     <str type="webworks" name="XREF figure" attribute="character-prefix">رسم توضيحي</str>
+     <str type="webworks" name="XREF table" attribute="character-prefix">الجدول</str>
+	 <str name="chapter">الفصل</str>
+     <str name="List of Figures">قائمة الرسوم التوضيحية</str>
+     <str name="List of Tables">قائمة المحتويات</str>
+     
+     <str type="webworks" name="Single Appendix Heading 1" attribute="bullet-character">الملحق</str>
+     <str type="webworks" name="Single Appendix Title" attribute="bullet-character">الملحق</str>
+
+</strings>

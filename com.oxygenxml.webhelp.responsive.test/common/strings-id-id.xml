@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<!-- Indonesian -->
+<strings xml:lang="id-id">
+ <!--Translation may be needed for legal notice and footer text.-->
+ <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+ <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+  subject to change without notice. This information is the confidential and proprietary information
+  of General Electric Company. Unauthorized duplication is strictly prohibited.</str>-->
+ <str name="Legal Notice">Legal Notice</str>
+ <str name="Notice">PEMBERITAHUAN</str>
+ <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+ <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+ <str name="Web Display">ge.com</str><!--Do not translate-->
+ <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+ <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+ <str name="OpenFrame">Buka dengan bingkai</str>
+ <str name="Expand">Luaskan</str>
+ <str name="Collapse">Ciutkan semua</str>
+ <str name="Print">Cetak halaman ini</str>
+ <str name="Email">Email</str>
+
+ <!-- various labels (not author controlled) -->
+ <str name="Chapter_Title_Prefix">Bab</str>
+ <str name="Appendix_Title">Lampiran</str>
+ <str name="Appendices_Title">Lampiran</str>
+ <str name="Figure">Gambar</str>
+ <str name="Figure_List_Title">Daftar Gambar</str>
+ <str name="Table">Tabel</str>
+ <str name="Table_List_Title">Daftar Tabel</str>
+ <str name="Xref_Step">Langkah</str>
+ <str name="Next topic">Next topic</str>
+ <str name="Previous topic">Previous topic</str>
+ <str name="Parent topic">Parent topic</str>
+ <str name="Required cleanup">Required cleanup</str>
+ <str name="Draft comment">Draft comment</str>
+ <str name="Option">Pilihan</str>
+ <str name="Description">Petunjuk</str>
+ <str name="Optional">Optional</str>
+ <str name="Required">Required</str>
+ <str name="Skip visual syntax diagram">Skip visual syntax diagram</str>
+ <str name="Read syntax diagram">Read syntax diagram</str>
+ <str name="Start of change">Start of change</str>
+ <str name="End of change">End of change</str>
+ <str name="Index">Indeks</str>
+ <str name="Content">Isi</str>
+ <str name="Search">Cari</str>
+ <str name="Special characters">Special characters</str>
+ <str name="Numerics">Numerics</str>
+ <str name="End notes">End notes</str>
+ <str name="Artwork">Artwork</str>
+ <str name="Syntax">Syntax</str>
+ <str name="Type">Type</str>
+ <str name="Value">Value</str>
+ <str name="Choptionhd">Pilihan</str>
+ <str name="Chdeschd">Petunjuk</str>
+ <!-- Text that goes before a link to a topic -->
+ <str name="intro-to-topic-link"/>
+
+ <!-- default title text for section level generated sections -->
+ <str name="Contents">Contents</str>
+ <str name="Related concepts">Related concepts</str>
+ <str name="Related tasks">Related tasks</str>
+ <str name="Related reference">Related reference</str>
+ <str name="Related information">Related information</str>
+
+ <str name="Prerequisite">Prerequisite</str>
+ <str name="Prerequisites">Prerequisites</str>
+ <str name="or">or</str>
+
+ <!--Task section labels -->
+ <str name="task_context">About this task</str>
+ <str name="task_example">Example</str>
+ <str name="task_postreq">What to do next</str>
+ <str name="task_prereq">Before you begin</str>
+ <str name="task_procedure">Procedure</str>
+ <str name="task_results">Results</str>
+
+ <str name="Copyright">Copyright</str>
+ 
+ <!-- added on 23 March, 2018 -->
+ <str name="Prerequisite Open_BASIC">Sebelum memulai</str>
+ <str type="webworks" name="Postrequisite Open_BASIC" attribute="bullet-character">Setelah selesai</str>
+ <str type="webworks" name="Steps Open_BASIC" attribute="bullet-character">Petunjuk langkah-demi-langkah</str>
+ <str name="Prerequisite Open_MR">Langkah-langkah awal</str>
+ <str type="webworks" name="Postrequisite Open_MR" attribute="bullet-character">Finalisasi</str>
+ <str type="webworks" name="Steps Open_MR" attribute="bullet-character">Prosedur</str>
+ 
+ <str name="webhelp.content" js="true" php="false">Isi</str>
+ <str name="webhelp.search" js="true" php="false">Cari</str>
+ <str name="webhelp.index" js="true" php="false">Indeks</str>
+
+ <!-- Symbols -->
+ <str name="OpenQuote">"</str>
+ <str name="CloseQuote">"</str>
+ <str name="ColonSymbol">:</str>
+
+ <!-- For odt transform -->
+ <str name="On the page"> on page </str>
+ <str name="Related Links">Related Links</str>
+ <str name="List item">List item.</str>
+ <str name="Foot note">Footnote.</str>
+ <str name="Page"> page </str>
+ <str name="Unordered List bullet">&#x2022;</str>
+ 
+ <!-- peril notice labels -->
+ <str name="Note">CATATAN</str>
+ <str name="Notice">PEMBERITAHUAN</str>
+ <str name="Notes">notes</str>
+ <str name="Tip">TIPS</str>
+ <str name="Fastpath">fastpath</str>
+ <str name="Important">PENTING</str>
+ <str name="Attention">PERHATIAN</str>
+ <str name="Caution">WASPADA</str>
+ <str name="Danger">BAHAYA</str>
+ <str name="Remember">remember</str>
+ <str name="Restriction">restriction</str>
+ <str name="Warning">PERINGATAN</str>
+
+ <!-- autogenerated strings based on paragraph style name -->
+ <str type="webworks" name="child link Open" attribute="bullet-character">Subtopics</str>
+ <str type="webworks" name="Next link" attribute="bullet-character" stylename="Bold">Next
+  topic:</str>
+ <str type="webworks" name="Previous link" attribute="bullet-character" stylename="Bold">Previous
+  topic:</str>
+ <str type="webworks" name="Related Topic Open" attribute="bullet-character">Related topics</str>
+ <str type="webworks" name="Related Concepts Open" attribute="bullet-character">Related
+  concepts</str>
+ <str type="webworks" name="Related Reference Open" attribute="bullet-character">Related
+  references</str>
+ <str type="webworks" name="Related Tasks Open" attribute="bullet-character">Related tasks</str>
+
+ <str type="webworks" name="Postrequisite Open show_hide_open" attribute="bullet-character">After
+  you finish</str>
+ <str type="webworks" name="Postrequisite Open show_hide_closed" attribute="bullet-character">After
+  you finish</str>
+ <str type="webworks" name="Postrequisite Open" attribute="bullet-character">After you finish</str>
+
+ <str type="webworks" name="ReviewerNote" attribute="bullet-character">Reviewers</str>
+ <str type="webworks" name="child link sequence Open" attribute="bullet-character">Procedure</str>
+ <str type="webworks" name="Steps Open" attribute="bullet-character">Procedure</str>
+ <str type="webworks" name="Steps show_hide_open Open" attribute="bullet-character">Procedure</str>
+ <str type="webworks" name="Steps show_hide_closed Open" attribute="bullet-character"
+  >Procedure</str>
+
+ <str type="webworks" name="Single Appendix Heading 1" attribute="bullet-character">Lampiran: </str>
+ <str type="webworks" name="Single Appendix Title" attribute="bullet-character">Lampiran: </str>
+
+ <str type="webworks" name="List optional 1" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="List optional 2" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="List optional 3" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Step optional 1" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="SubStep optional 2" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Numbered optional 2" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Numbered optional 1" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="Numbered optional 3" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="child link family Optional" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="child link sequence Optional" attribute="paragraph-prefix">(Optional) </str>
+ <str type="webworks" name="child link unordered Optional" attribute="paragraph-prefix">(Optional) </str>
+
+ <str type="webworks" name="copyright" attribute="paragraph-prefix">Copyright</str>
+ <str type="webworks" name="Prerequisite Open" attribute="bullet-character">Before you begin</str>
+ <str type="webworks" name="Result Open" attribute="bullet-character">Results</str>
+ <str type="webworks" name="Context Open" attribute="bullet-character">About this task</str>
+ <str type="webworks" name="Example Open" attribute="bullet-character">Example</str>
+ <str type="webworks" name="Example Open show_hide_closed" attribute="bullet-character"
+  >Example</str>
+ <str type="webworks" name="Example Open show_hide_open" attribute="bullet-character">Example</str>
+ <str type="webworks" name="Description Open" attribute="bullet-character">Description</str>
+ <str type="webworks" name="Syntax Open" attribute="bullet-character">Syntax</str>
+ <str type="webworks" name="Arguments Open" attribute="paragraph-prefix">Arguments</str>
+ <str type="webworks" name="Options Open" attribute="paragraph-prefix">Options</str>
+ <str type="webworks" name="Parameters Open" attribute="paragraph-prefix">Parameters</str>
+
+ <str type="webworks" name="XREF step" attribute="character-prefix">Langkah </str>
+ <str type="webworks" name="XREF li" attribute="character-prefix">Langkahp </str>
+ <str type="webworks" name="XREF figure" attribute="character-prefix">Gambar </str>
+ <str type="webworks" name="XREF table" attribute="character-prefix">Tabel </str>
+
+</strings>

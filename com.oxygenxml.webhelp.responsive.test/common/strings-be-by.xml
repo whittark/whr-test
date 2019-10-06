@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+  Sourceforge.net. See the accompanying license.txt file for 
+  applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="be-by"> <!-- Belarusian --> 
+  <!--Translation may be needed for legal notice and footer text.-->
+  <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+  <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+    subject to change without notice. This information is the confidential and proprietary information
+    of General Electric Company. Unauthorized duplication is strictly prohibited.</str>-->
+  <str name="Legal Notice">Legal Notice</str>
+  <str name="Notice"><!--Notice--></str>
+  <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+  <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+  <str name="Web Display">ge.com</str><!--Do not translate-->
+  <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+  <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+  <str name="OpenFrame"><!--Translate-->Open with frames</str>
+  <str name="Collapse"><!--Translate-->Collapse all</str>
+  <str name="Print"><!--Translate-->Print this page</str>
+  
+  <str name="Figure">Малюнак</str> 
+  <str name="Table">Табліца</str> 
+  <str name="Next topic">Наступная тэма</str> 
+  <str name="Previous topic">Папярэдняя тэма</str> 
+  <str name="Parent topic">Тэма вышэйшага ўзроўню</str> 
+  <str name="Required cleanup">Патрэбна выпраўленне</str> 
+  <str name="Draft comment">Чарнавая заўвага</str> 
+  <str name="Option">Настройка</str> 
+  <str name="Description">Інструкцыі</str> 
+  <str name="Optional">Выбар</str> 
+  <str name="Required">Абавязкова</str> 
+  <str name="Skip visual syntax diagram">Прапусціць сінт. дыяграму</str> 
+  <str name="Read syntax diagram">Чытаць сінт. дыяграму</str> 
+  <str name="Start of change">Пачатак змянення</str> 
+  <str name="End of change">Канец змянення</str> 
+  <str name="Index">Абазначэнні</str>
+  <str name="Content">Змесціва<!--Translate--></str>
+  <str name="Search">Пошук<!--Translate--></str>
+  <str name="Special characters">Спецыяльныя сімвалы</str> 
+  <str name="Numerics">Лічбы</str> 
+  <str name="End notes">Зноскі</str> 
+  <str name="Artwork">Ілюстрацыя</str> 
+  <str name="Syntax">Сінтакс.</str> 
+  <str name="Type">Тып</str> 
+  <str name="Value">Значэнне</str> 
+  <!-- Text that goes before a link to a topic -->
+  <str name="intro-to-topic-link"></str>
+  <!-- peril notice labels --> 
+  <str name="Note">Заўвага</str> 
+  <str name="Notes">Заўвагі</str>
+  <str name="Notice">ПАВЕДАМЛЕННЕ</str>  
+  <str name="Tip">ПАДКАЗКА</str> 
+  <str name="Fastpath">Хуткі пераход</str> 
+  <str name="Important">Важна</str> 
+  <str name="Attention">Увага</str> 
+  <str name="Caution">АСЦЯРОЖНА</str> 
+  <str name="Danger">НЕБЯСПЕКА</str> 
+  <str name="Remember">Напамін</str> 
+  <str name="Restriction">Абмежаванне</str> 
+  <str name="Warning">Папярэджанне</str> 
+  <!-- default title text for section level generated sections --> 
+  <str name="Contents">Змесціва</str> 
+  <str name="Related concepts">Адпаведныя канцэпцыі</str> 
+  <str name="Related tasks">Адпаведныя задачы</str> 
+  <str name="Related reference">Адпаведная спасылка</str> 
+  <str name="Related information">Адпаведная інфармацыя</str> 
+  <str name="Prerequisite">Перадумова</str> 
+  <str name="Prerequisites">Перадумовы</str> 
+  <str name="or">або</str> 
+
+  <!--Task section labels -->
+  <str name="task_context">Аб гэтай задачы</str>
+  <str name="task_example">Прыклад</str>
+  <str name="task_postreq">Далейшыя дзеяннi</str>
+  <str name="task_prereq">Перад пачаткам работы</str>
+  <str name="task_procedure">Парадак выканання</str>
+  <str name="task_results">Рэзультаты</str>
+
+  <str name="Copyright">Copyright</str> 
+  <!-- Symbols --> 
+  <str name="OpenQuote">"</str> 
+  <str name="CloseQuote">"</str> 
+  <str name="ColonSymbol">:</str> 
+  
+  <!-- strings added on 27 February 2018 -->
+  <str name="chapter">Глава</str>
+  <str name="List of Figures">Спіс малюнкаў</str>
+  <str name="List of Tables">Спіс табліц</str>
+  
+  <str type="webworks" name="Single Appendix Heading 1" attribute="bullet-character">Дадатак: </str>
+  <str type="webworks" name="Single Appendix Title" attribute="bullet-character">Дадатак: </str>
+  
+  <str type="webworks" name="XREF step" attribute="character-prefix">Крок</str>
+  <str type="webworks" name="XREF li" attribute="character-prefix">Крок</str>
+  
+  <str name="Expand" js="true" php="false">Разгарнуць</str>
+  <str name="Collapse" js="true" php="false">Згарнуць усё</str>
+  <str name="OpenFrame" js="true" php="false">Адкрыць у розных вокнах</str>
+  <str name="Print" js="true" php="false">Надрукаваць гэту старонку</str>
+  <str name="Email" js="true" php="false">Электронная пошта</str>
+  
+  <str name="webhelp.content" js="true" php="false">Змесціва</str>
+  <str name="webhelp.search" js="true" php="false">Пошук</str>
+  <str name="webhelp.index" js="true" php="false">Абазначэнні</str>
+  
+  
+</strings>

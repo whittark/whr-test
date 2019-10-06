@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="bg-bg">
+    <!-- Bulgarian -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Legal Notice">Legal Notice</str>
+    <str name="Notice"><!--Notice--></str>
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+    <str name="OpenFrame"><!--Translate-->Open with frames</str>
+    <str name="Collapse"><!--Translate-->Collapse all</str>
+    <str name="Print"><!--Translate-->Print this page</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Figure">Фигура</str>
+    <str name="Table">Таблица</str>
+    <str name="Next topic">Следваща тема</str>
+    <str name="Previous topic">Предходна тема</str>
+    <str name="Parent topic">Тема родител</str>
+    <str name="Required cleanup">Необходимо прочистване</str>
+    <str name="Draft comment">Коментар на чернова</str>
+    <str name="Option">Избор</str>
+    <str name="Description">Инструкции</str>
+    <str name="Optional">Избираем</str>
+    <str name="Required">Задължителен</str>
+    <str name="Skip visual syntax diagram">Пропусни визуална диаграма на синтаксис</str>
+    <str name="Read syntax diagram">Четене на диаграма на синтаксис</str>
+    <str name="Start of change">Начало на промяна</str>
+    <str name="End of change">Край на промяна</str>
+    <str name="Index">Индекс</str>
+    <str name="Content">съдържание<!--Translate--></str>
+    <str name="Search">Търсене<!--Translate--></str>
+    <str name="Special characters">Специални символи</str>
+    <str name="Numerics">Цифри</str>
+    <str name="End notes">Крайни забележки</str>
+    <str name="Artwork">Илюстрации</str>
+    <str name="Syntax">Синтаксис</str>
+    <str name="Type">Тип</str>
+    <str name="Value">Стойност</str>
+    <!-- Text that goes before a link to a topic -->
+    <str name="intro-to-topic-link"/>
+
+    <!-- peril notice labels -->
+    <str name="Note">Забележка</str>
+    <str name="Notes">Забележки</str>
+	<str name="Notice">БЕЛЕЖКА</str>
+    <str name="Tip">Съвет</str>
+    <str name="Fastpath">Бърз начин</str>
+    <str name="Important">Важно</str>
+    <str name="Attention">НА ВАШЕТО ВНИМАНИЕ</str>
+    <str name="Caution">ВНИМАНИЕ</str>
+    <str name="Danger">ОПАСНОСТ</str>
+    <str name="Remember">Запомнете</str>
+    <str name="Restriction">Ограничение</str>
+    <str name="Warning">Предупреждение</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">Съдържание</str>
+    <str name="Related concepts">Свързани понятия</str>
+    <str name="Related tasks">Свързани дейности</str>
+    <str name="Related reference">Свързани справки</str>
+    <str name="Related information">Свързана информация</str>
+
+    <str name="Prerequisite">Необходимо условие</str>
+    <str name="Prerequisites">Необходими условия</str>
+    <str name="or">or</str>
+
+    <!--Task section labels -->
+    <str name="task_context">За тази дейност</str>
+    <str name="task_example">Пример</str>
+    <str name="task_postreq">Какво да направим после</str>
+    <str name="task_prereq">Преди да започнете</str>
+    <str name="task_procedure">Процедура</str>
+    <str name="task_results">Резултати</str>
+
+    <str name="Copyright">Авторско право</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+  <!-- strings added on 27 February 2018 -->
+  <str name="chapter">Глава</str>
+  <str name="List of Figures">Списък на фигурите</str>
+  <str name="List of Tables">Списък на таблиците</str>
+  
+  <str type="webworks" name="Single Appendix Heading 1" attribute="bullet-character">Приложение: </str>
+  <str type="webworks" name="Single Appendix Title" attribute="bullet-character">Приложение: </str>
+  
+  <str type="webworks" name="XREF step" attribute="character-prefix">Стъпка</str>
+  <str type="webworks" name="XREF li" attribute="character-prefix">Стъпка</str>
+  
+  <str name="Expand" js="true" php="false">Разширяване</str>
+  <str name="Collapse" js="true" php="false">Свиване на всичко</str>
+  <str name="OpenFrame" js="true" php="false">Отваряне с рамки</str>
+  <str name="Print" js="true" php="false">Отпечатване на страницата</str>
+  <str name="Email" js="true" php="false">Email</str>
+  
+  <str name="webhelp.content" js="true" php="false">Съдържание</str>
+  <str name="webhelp.search" js="true" php="false">Търсене</str>
+  <str name="webhelp.index" js="true" php="false">Индекс</str>
+</strings>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="es-es">
+    <!-- Spanish -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Chapter" js="true" php="false">Capítulo<!-- translate --></str>
+<str name="Legal Notice">Legal Notice</str>
+ 
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+ 
+    <str name="Expand" js="true" php="false">Expandir</str>
+    <str name="Collapse" js="true" php="false">Contraer todo</str>
+       <str name="OpenFrame" js="true" php="false">Abrir con marcos</str>
+    <str name="CollapseAll" js="true" php="false">Contraer todo</str>
+    <str name="Print" js="true" php="false">Imprimir esta página</str>
+    <str name="printThisPage" js="true" php="false">Imprimir esta página</str>
+    
+    <str name="Email" js="true" php="false">Email</str>
+ 
+
+	<!-- GEHC-162 -->
+	<!-- Rally ID US344 -->
+	<!-- 2018-01-20: add support -->
+	<str name="Support" js="true" php="false"><!--Translate-->Support</str>
+
+
+	<!-- FMC 03/15/2015 add gentext for Xref's -->
+ <str name="Xref_Step" js="true" php="false">Paso</str>
+<str name="msgph-For">For</str>
+  <str name="Keywords" js="true" php="false">Keywords</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Figure">Ilustración</str>
+    <str name="Table">Tabla</str>
+    <str name="Next topic">Tema siguiente</str>
+    <str name="Previous topic">Tema anterior</str>
+    <str name="Parent topic">Tema principal</str>
+    <str name="Required cleanup">Por revisar</str>
+    <str name="Draft comment">Borrador: comentarios</str>
+
+    <str name="Option">Elección</str>
+    <str name="Description">Instrucciones</str>
+    <str name="Optional">Opcional</str>
+    <str name="Required">Necesario</str>
+    <str name="Skip visual syntax diagram">Omitir el esquema de sintaxis visual</str>
+    <str name="Read syntax diagram">Leer el esquema de sintaxis</str>
+    <str name="Start of change">Inicio del cambio</str>
+    <str name="End of change">Fin del cambio</str>
+    <str name="Index">Índice</str>
+    <str name="Content">Contenido</str>
+    <str name="Search">Búsqueda</str>
+    <str name="Special characters">Caracteres Especiales</str>
+    <str name="Numerics">Números</str>
+    <str name="End notes">Notas al pie</str>
+    <str name="Artwork">Gráficos e imágenes</str>
+    <str name="Syntax">Sintaxis</str>
+    <str name="Type">Tipo</str>
+    <str name="Value">Valor</str>
+    <!-- Text that goes before a link to a topic -->
+    <str name="intro-to-topic-link">apartado</str>
+
+    <!-- peril notice labels -->
+    <str name="Note">NOTA</str>
+    <str name="Notice">AVISO</str>
+    <str name="Notes">Notas</str>
+    <str name="Tip">SUGERENCIA</str>
+    <str name="Fastpath">Vía de acceso rápida</str>
+    <str name="Important">IMPORTANTE</str>
+    <str name="Attention">ATENCIÓN</str>
+    <str name="Caution">PRECAUCIÓN</str>
+    <str name="Danger">PELIGRO</str>
+    <str name="Remember">Recuerde</str>
+    <str name="Restriction">Restricción</str>
+    <str name="Warning">ADVERTENCIA</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">Contenido</str>
+    <str name="Related concepts">Conceptos relacionados</str>
+    <str name="Related tasks">Tareas relacionadas</str>
+    <str name="Related reference">Referencia relacionada</str>
+    <str name="Related information">Información relacionada</str>
+
+    <str name="Prerequisite">Prerrequisito</str>
+    <str name="Prerequisites">Prerrequisitos</str>
+    <str name="Prerequisite Open_MR">Prerrequisitos</str>
+ <str name="Prerequisite Open_BASIC">Antes de empezar</str>
+ <str type="webworks" name="Postrequisite Open_MR" attribute="bullet-character">Finalización</str>
+ <str type="webworks" name="Postrequisite Open_BASIC" attribute="bullet-character">Antes de finalizar</str>
+ <str type="webworks" name="Steps Open_MR" attribute="bullet-character">Procedimiento</str>
+    <str type="webworks" name="Steps Open_BASIC" attribute="bullet-character">Instrucciones paso a paso</str>
+ <str type="webworks" name="Result Open_MR" attribute="bullet-character">Resultados</str>
+ <str type="webworks" name="Result Open_BASIC" attribute="bullet-character">Resultados</str>
+    <str name="or">or</str>
+
+    <!--Task section labels -->
+
+    <str name="task_context">Por qué y cuándo se efectúa esta tarea</str>
+    <str name="task_example">Ejemplo</str>
+    <str name="task_postreq">Antes de finalizar</str>
+ <str name="task_postreq OPEN_MR">Antes de finalizar</str>
+ <str name="task_postreq Open_BASIC">Finalización</str>
+    <str name="task_prereq">Antes de empezar</str>
+ <str name="task_prereq_ArgsYes">Prerrequisitos</str>
+    <str name="task_postreq">Qué hacer a continuación</str>
+    <str name="task_procedure">Procedimiento</str>
+ <str name="task_procedure_ArgsYes">Procedimiento</str>
+    <str name="task_results">Resultados</str>
+
+    <str name="Copyright">Copyright</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+    <!-- For odt transform -->
+    <str name="On the page"> en la página </str>
+    <str name="Related Links">Vínculos relacionados</str>
+    <str name="List item">Elemento de lista.</str>
+    <str name="Foot note">Nota al pie.</str>
+    <str name="Page"> página </str>
+    <str name="Unordered List bullet">&#8226;</str>
+    
+    <str name="Index">Índice</str>
+    <str name="Content">Contenido</str>
+    <str name="Search">Búsqueda</str>
+
+    <!-- emc: autogenerated strings based on paragraph style name -->
+    <str type="webworks" name="child link Open" attribute="bullet-character">Subtopics</str>
+    <str type="webworks" name="Next link" attribute="bullet-character" stylename="Bold">Tema
+        siguiente:</str>
+    <str type="webworks" name="Previous link" attribute="bullet-character" stylename="Bold">Tema
+        anterior:</str>
+    <str type="webworks" name="Related Topic Open" attribute="bullet-character">Temas
+        relacionados</str>
+    <str type="webworks" name="Related Concepts Open" attribute="bullet-character">Conceptos
+        relacionados</str>
+    <str type="webworks" name="Related Reference Open" attribute="bullet-character">Referencias
+        relacionadas</str>
+    <str type="webworks" name="Related Tasks Open" attribute="bullet-character">Tareas
+        relacionadas</str>
+
+    <str type="webworks" name="Postrequisite Open show_hide_open" attribute="bullet-character"
+        >Requistos Posteriores</str>
+    <str type="webworks" name="Postrequisite Open show_hide_closed" attribute="bullet-character"
+        >Requistos Posteriores</str>
+    <str type="webworks" name="Postrequisite Open" attribute="bullet-character">Requistos
+        Posteriores</str>
+
+    <str type="webworks" name="ReviewerNote" attribute="bullet-character">Reviewers</str>
+    <str type="webworks" name="child link sequence Open" attribute="bullet-character"
+        >Procedimiento</str>
+    <str type="webworks" name="Steps Open" attribute="bullet-character">Procedimiento</str>
+    <str type="webworks" name="Steps show_hide_open Open" attribute="bullet-character"
+        >Procedimiento</str>
+    <str type="webworks" name="Steps show_hide_closed Open" attribute="bullet-character"
+        >Procedimiento</str>
+
+    <str type="webworks" name="Single Appendix Heading 1" attribute="bullet-character">Apéndice: </str>
+    <str type="webworks" name="Single Appendix Title" attribute="bullet-character">Apéndice: </str>
+
+    <str type="webworks" name="List optional 1" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="List optional 2" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="List optional 3" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="Step optional 1" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="SubStep optional 2" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="Numbered optional 2" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="Numbered optional 1" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="Numbered optional 3" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="child link family Optional" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="child link sequence Optional" attribute="paragraph-prefix">(Opcional) </str>
+    <str type="webworks" name="child link unordered Optional" attribute="paragraph-prefix"
+        >(Opcional) </str>
+
+    <str type="webworks" name="copyright" attribute="paragraph-prefix">Copyright</str>
+    <str type="webworks" name="Prerequisite Open" attribute="bullet-character">Antes de
+        comenzar</str>
+    <str type="webworks" name="Result Open" attribute="bullet-character">Resultados</str>
+    <str type="webworks" name="Context Open" attribute="bullet-character">Procedimiento</str>
+    <str type="webworks" name="Example Open" attribute="bullet-character">Ejemplo</str>
+    <str type="webworks" name="Example Open show_hide_closed" attribute="bullet-character"
+        >Ejemplo</str>
+    <str type="webworks" name="Example Open show_hide_open" attribute="bullet-character"
+        >Ejemplo</str>
+    <str type="webworks" name="Description Open" attribute="bullet-character">Descripción</str>
+    <str type="webworks" name="Syntax Open" attribute="bullet-character">Sintaxis</str>
+    <str type="webworks" name="Arguments Open" attribute="paragraph-prefix">Argumentos</str>
+    <str type="webworks" name="Options Open" attribute="paragraph-prefix">Opciones</str>
+    <str type="webworks" name="Parameters Open" attribute="paragraph-prefix">Parámetros</str>
+ <str name="webhelp.content" js="true" php="false">Contenido</str>
+   <str name="oldFrames" js="true" php="false">Abrir con marcos</str>
+   <str name="webhelp.search" js="true" php="false">Búsqueda</str>
+   <str name="webhelp.index" js="true" php="false">Índice</str>
+   <str name="IndexFilterPlaceholder" js="true" php="false">Filter Index Entries</str>
+   <str name="SearchResults" js="true" php="false">Search Results</str>
+   <str name="Loading, please wait ..." js="true" php="false">Loading, please wait ...</str>
+   <str name="Search no results" js="true" php="false">Your search returned no results for</str>
+   <str name="Results for:" js="true" php="false">Results for:</str>
+   <str name="There is no page containing all the search terms."
+        js="true"
+        php="false">There is no page containing all
+            the search terms.</str>
+   <str name="Partial results:" js="true" php="false">Partial results:</str>
+   <str name="Output generated by" js="true" php="false">WebHelp output generated by</str>
+   <str name="Search string can&apos;t be void" js="true" php="false">Search string can&apos;t be void</str>
+   <str name="Search string must have at least two characters"
+        js="true"
+        php="false">Search string must have at least two characters</str>
+   <str name="Only first 10 words will be processed." js="true" php="false">Only first 10 words will be processed.</str>
+   <str name="Your browser is not supported. Use of Mozilla Firefox is recommended."
+        js="true"
+        php="false">Your browser
+            is not supported. Use of Mozilla Firefox is recommended.</str>
+    <str name="xref.step" js="true" php="false">Paso</str>
+</strings>

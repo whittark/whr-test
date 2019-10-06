@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+     Sourceforge.net. See the accompanying license.txt file for 
+     applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="el-gr">
+     <!-- Greek -->
+     <!--Translation may be needed for legal notice and footer text.-->
+     <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+     <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information
+          is subject to change without notice. This information is the confidential and proprietary
+          information of General Electric Company. Unauthorized duplication is strictly
+          prohibited.</str>-->
+     <str name="Legal Notice">Legal Notice</str>
+     <str name="Notice">ΣΗΜΕΙΩΣΗ</str>
+     <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+     <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+     <str name="Web Display">ge.com</str><!--Do not translate-->
+     <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+     <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+     <str name="OpenFrame">Άνοιγμα με πλαίσια</str>
+	 <str name="Expand">Επέκταση</str>
+     <str name="Collapse">Σύμπτυξη όλων</str>
+     <str name="Print">Εκτύπωση αυτής της σελίδας</str>
+	 <str name="Email">Email</str>
+
+     <!-- various labels (not author controlled) -->
+     <str name="Chapter_Title_Prefix">Κεφάλαιο</str>
+     <str name="Appendix_Title">Παράρτημα</str>
+     <str name="Appendices_Title">Παραρτήματα</str>
+	 <str name="Figure">Εικόνα</str>
+	 <str name="Figure_List_Title">Λίστα εικόνων</str>
+     <str name="Table">Πίνακας</str>
+	 <str name="Table_List_Title">Λίστα πινάκων</str>
+     <str name="Xref_Step">Βήμα</str>
+     <str name="Next topic">Επόμενο θέμα</str>
+     <str name="Previous topic">Προηγούμενο θέμα</str>
+     <str name="Parent topic">Γονικό θέμα</str>
+     <str name="Required cleanup">Απαιτείται διόρθωση</str>
+     <str name="Draft comment">Πρόχειρο σχόλιο</str>
+     <str name="Option">Επιλογή</str>
+     <str name="Description">Περιγραφή</str>
+     <str name="Optional">Προαιρετικά</str>
+     <str name="Required">Απαιτείται</str>
+     <str name="Skip visual syntax diagram">Παράλειψη οπτικού διαγράμματος σύνταξης</str>
+     <str name="Read syntax diagram">Ανάγνωση διαγράμματος σύνταξης</str>
+     <str name="Start of change">Αρχή αλλαγής</str>
+     <str name="End of change">Τέλος αλλαγής</str>
+     <str name="Index">Ευρετήριο</str>
+     <str name="Content">Περιεχόμενο</str>
+     <str name="Search">Αναζήτηση</str>
+     <str name="Special characters">Ειδικοί χαρακτήρες</str>
+     <str name="Numerics">Αριθμοί</str>
+     <str name="End notes">Υποσημειώσεις</str>
+     <str name="Artwork">Εικόνα</str>
+     <str name="Syntax">Σύνταξη</str>
+     <str name="Type">Είδος</str>
+     <str name="Value">Τιμή</str>
+	 <str name="Choptionhd">Επιλογή</str>
+     <str name="Chdeschd">Οδηγίες</str>
+     <!-- Text that goes before a link to a topic -->
+     <str name="intro-to-topic-link"/>
+
+     <!-- peril notice labels -->
+     <str name="Note">ΣΗΜΕΙΩΣΗ</str>
+     <str name="Notes">Σημειώσεις</str>
+	 <str name="Notice">ΣΗΜΕΙΩΣΗ</str>
+     <str name="Tip">ΥΠΑΙΝΙΓΜΟΣ</str>
+     <str name="Fastpath">Άμεση μετάβαση</str>
+     <str name="Important">ΣΗΜΑΝΤΙΚΟ</str>
+     <str name="Attention">ΠΡΟΣΟΧΗ</str>
+     <str name="Caution">ΠΡΟΣΟΧΗ</str>
+     <str name="Danger">ΚΙΝΔΥΝΟΣ</str>
+     <str name="Remember">Υπενθύμιση</str>
+     <str name="Restriction">Περιορισμός</str>
+     <str name="Warning">ΠΡΟΕΙΔΟΠΟΙΗΣΗ</str>
+
+     <!-- default title text for section level generated sections -->
+     <str name="Contents">Περιεχόμενα</str>
+     <str name="Related concepts">Συναφείς έννοιες</str>
+     <str name="Related tasks">Συναφείς εργασίες</str>
+     <str name="Related reference">Συναφής αναφορά</str>
+     <str name="Related information">Συναφείς πληροφορίες</str>
+
+     <str name="Prerequisite">Προϋπόθεση</str>
+     <str name="Prerequisites">Προϋποθέσεις</str>
+     <str name="or">ή</str>
+
+     <!--Task section labels -->
+     <str name="task_context">Σχετικά με αυτή την εργασία</str>
+     <str name="task_example">Παράδειγμα</str>
+     <str name="task_postreq">Επόμενες ενέργειες</str>
+     <str name="task_prereq">Πριν ξεκινήσετε</str>
+     <str name="task_procedure">Διαδικασία</str>
+     <str name="task_results">Αποτελέσματα</str>
+
+     <str name="Copyright">Copyright</str>
+
+     <!-- Symbols -->
+     <str name="OpenQuote">"</str>
+     <str name="CloseQuote">"</str>
+     <str name="ColonSymbol">:</str>
+
+</strings>

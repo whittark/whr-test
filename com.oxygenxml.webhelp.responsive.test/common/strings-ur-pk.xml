@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2009 All Rights Reserved. -->
+
+<strings xml:lang="ur-pk">        <!-- Urdu -->
+ <!--Translation may be needed for legal notice and footer text.-->
+ <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+ <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+  subject to change without notice. This information is the confidential and proprietary information
+  of General Electric Company. Unauthorized duplication is strictly prohibited.</str>-->
+ <str name="Chapter" js="true" php="false">Chapter<!-- translate --></str>
+<str name="Legal Notice">Legal Notice</str>
+ <str name="Notice"><!--Notice--></str>
+ <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+ <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+ <str name="Web Display">ge.com</str><!--Do not translate-->
+ <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+ <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+ <str name="OpenFrame"><!--Translate-->Open with frames</str>
+ <str name="Collapse"><!--Translate-->Collapse all</str>
+ <str name="Print"><!--Translate-->Print this page</str>
+
+
+	<!-- GEHC-162 -->
+	<!-- Rally ID US344 -->
+	<!-- 2018-01-20: add support -->
+	<str name="Support"><!--Translate-->Support</str>
+
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">تصویر</str>
+<str name="Table">جدول</str>
+<str name="Next topic">اگلا موضوع</str>
+<str name="Previous topic">سابقہ موضوع</str>
+<str name="Parent topic">مادر موضوع</str>
+<str name="Required cleanup">مطلوبہ صفائی</str>
+<str name="Draft comment">تبصرے کا مسودہ</str>
+<str name="Option">اختیار</str>
+<str name="Description">وضاحت</str>
+<str name="Optional">اختیاری</str>
+<str name="Required">ضروری</str>
+<str name="Skip visual syntax diagram">وژوئل سنٹیکس کی شکل چھوڑ دیں</str>
+<str name="Read syntax diagram">وژوئل سنٹیکس کی شکل پڑھیں</str>
+<str name="Start of change">تبدیلی کی شروعات</str>
+<str name="End of change">تبدیلی کی کا اختتام</str>
+<str name="Index">انڈکس</str>
+ <str name="Content">کونٹینٹ</str>
+ <str name="Search">تلاش کریں</str>
+<str name="Special characters">خاص حروف</str>
+<str name="Numerics">نمبر</str>
+<str name="End notes">اختتامی نوٹس</str>
+<str name="Artwork">آرٹ ورک</str>
+<str name="Syntax">سنٹیکس</str>
+<str name="Type">قسم</str>
+<str name="Value">قدر</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">نوٹ</str>
+<str name="Notes">نوٹس</str>
+<str name="Tip">مشورہ</str>
+<str name="Fastpath">تیز طریقہ</str>
+<str name="Important">اہم</str>
+<str name="Attention">براۓ توجہ</str>
+<str name="Caution">احتیاط</str>
+<str name="Danger">خطرناک</str>
+<str name="Remember">یاد رکھیں</str>
+<str name="Restriction">پابندی</str>
+<str name="Warning">انتباہ</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">فہرست</str>
+<str name="Related concepts">متعلقہ خیالات</str>
+<str name="Related tasks">متعلقہ کام</str>
+<str name="Related reference">متعلقہ حوالہ</str>
+<str name="Related information">متعلقہ معلومات</str>
+
+<str name="Prerequisite">شرط اول</str>
+<str name="Prerequisites">اولین شرطیں</str>
+<str name="or">یا</str>
+
+<!--Task section labels -->
+<str name="task_context">اس کام کے متعلق</str>
+<str name="task_example">مثال</str>
+<str name="task_postreq">آکے کیا کرنا ہے</str>
+<str name="task_prereq">قبل اس کے کہ آپ شروع کریں</str>
+<str name="task_procedure">طریق عمل</str>
+<str name="task_results">نتائج</str>
+
+<str name="Copyright">حقوق</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">"</str>
+<str name="CloseQuote">"</str>
+<str name="ColonSymbol">:</str>
+
+</strings>

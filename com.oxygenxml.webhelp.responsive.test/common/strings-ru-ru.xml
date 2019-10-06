@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="ru-ru">
+    <!-- Russian -->
+    <!--Translation may be needed for legal notice and footer text.-->
+    <!-- 04/02/2017 NMM: Remove Footer Text string because content is now specified in an key file  -->
+    <!--<str name="Footer Text">© 2015 General Electric Company. All rights reserved. All information is
+        subject to change without notice. This information is the confidential and proprietary
+        information of General Electric Company. Unauthorized duplication is strictly
+        prohibited.</str>-->
+    <str name="Legal Notice">Legal Notice</str>
+    <str name="Notice"><!--Notice--></str>
+    <!--The following two items were changed from gehealthcare.com to ge.com during the Fall 2014 changes. - Pat-->
+    <str name="Web URL">http://www.ge.com</str><!--Do not translate-->
+    <str name="Web Display">ge.com</str><!--Do not translate-->
+    <str name="Web URL Internet">http://www.gesoftware.com</str><!--Do not translate-->
+    <str name="Web Display Internet">gesoftware.com</str><!--Do not translate-->
+    <str name="OpenFrame">Открыть с рамками</str>
+    <str name="Expand">Развернуть</str>
+    <str name="Collapse">Свернуть все</str>
+    <str name="Print">Открыть с рамками</str>
+    <str name="Email">Электронная почта</str>
+
+    <!-- various labels (not author controlled) -->
+    <str name="Chapter_Title_Prefix">Глава</str>
+    <str name="Appendix_Title">Приложение</str>
+    <str name="Appendices_Title">приложения</str>
+    <str name="Figure">Рисунок</str>
+    <str name="Figure_List_Title">Список рисунков</str>
+    <str name="Xref_Step">Шаг</str>
+    <str name="Table">Таблица</str>
+    <str name="Table_List_Title">Список таблиц</str>
+    <str name="Next topic">Следующая тема</str>
+    <str name="Previous topic">Предыдущая тема</str>
+    <str name="Parent topic">На уровень выше</str>
+    <str name="Required cleanup">Требуется исправление</str>
+    <str name="Draft comment">Замечание в черновой версии</str>
+    <str name="Option">Опция</str>
+    <str name="Description">Описание</str>
+    <str name="Optional">Необязательно</str>
+    <str name="Required">Обязательно</str>
+    <str name="Skip visual syntax diagram">Пропуск синтаксической диаграммы</str>
+    <str name="Read syntax diagram">Чтение синтаксической диаграммы</str>
+    <str name="Start of change">Изменено</str>
+    <str name="End of change">Конец изменений</str>
+    <str name="Index">Индекс</str>
+    <str name="Content">содержание</str>
+    <str name="Search">поиск</str>
+    <str name="Special characters">Спец. символы</str>
+    <str name="Numerics">Числа</str>
+    <str name="End notes">Сноски</str>
+    <str name="Artwork">Иллюстрация</str>
+    <str name="Syntax">Синтаксис</str>
+    <str name="Type">Тип</str>
+    <str name="Value">Значение</str>
+    <str name="Choptionhd">Выбор</str>
+    <str name="Chdeschd">Инструкции</str>
+    <!-- Text that goes before a link to a topic -->
+    <str name="intro-to-topic-link"/>
+
+    <!-- peril notice labels -->
+    <str name="Note">ПРИМЕЧАНИЕ</str>
+    <str name="Notes">Прим.</str>
+    <str name="Notice">УВЕДОМЛЕНИЕ</str>
+    <str name="Tip">СОВЕТ</str>
+    <str name="Fastpath">Быстрый путь</str>
+    <str name="Important">ВАЖНАЯ ИНФОРМАЦИЯ</str>
+    <str name="Attention">ВНИМАНИЕ</str>
+    <str name="Caution">ПРЕДОСТЕРЕЖЕНИЕ</str>
+    <str name="Danger">ОПАСНОСТЬ</str>
+    <str name="Remember">Напоминание</str>
+    <str name="Restriction">Ограничение</str>
+    <str name="Warning">ПРЕДУПРЕЖДЕНИЕ</str>
+
+    <!-- default title text for section level generated sections -->
+    <str name="Contents">Содержание</str>
+    <str name="Related concepts">Понятия, связанные с данным</str>
+    <str name="Related tasks">Задачи, связанные с данной</str>
+    <str name="Related reference">Ссылки, связанные с данной</str>
+    <str name="Related information">Информация, связанная с данной</str>
+
+    <str name="Prerequisite">Предварительное условие</str>
+    <str name="Prerequisites">Предварительные условия</str>
+    <str name="or">or</str>
+
+    <!--Task section labels -->
+    <str name="task_context">Об этой задаче</str>
+    <str name="task_example">Пример</str>
+    <str name="task_postreq">Дальнейшие действия</str>
+    <str name="task_prereq">Подготовка</str>
+    <str name="task_procedure">Процедура</str>
+    <str name="task_results">Результат</str>
+
+    <str name="Copyright">Copyright</str>
+
+    <!-- Symbols -->
+    <str name="OpenQuote">"</str>
+    <str name="CloseQuote">"</str>
+    <str name="ColonSymbol">:</str>
+
+    <!-- NS/EMC Apr-2013 Fixed capitalization issues and postreq translation -->
+    <!-- emc: autogenerated strings based on paragraph style name -->
+    <str type="webworks" name="child link Open" attribute="bullet-character">Subtopics</str>
+    <str type="webworks" name="Next link" attribute="bullet-character" stylename="Bold">Next
+        topic:</str>
+    <str type="webworks" name="Previous link" attribute="bullet-character" stylename="Bold">Previous
+        topic:</str>
+    <str type="webworks" name="Related Topic Open" attribute="bullet-character">Близкие темы</str>
+    <str type="webworks" name="Related Concepts Open" attribute="bullet-character">Related
+        concepts</str>
+    <str type="webworks" name="Related Reference Open" attribute="bullet-character">Related
+        references</str>
+    <str type="webworks" name="Related Tasks Open" attribute="bullet-character">Related tasks</str>
+
+    <str type="webworks" name="Postrequisite Open show_hide_open" attribute="bullet-character">После
+        окончания</str>
+    <str type="webworks" name="Postrequisite Open show_hide_closed" attribute="bullet-character"
+        >После окончания</str>
+    <str type="webworks" name="Postrequisite Open" attribute="bullet-character">После
+        окончания</str>
+
+    <str type="webworks" name="ReviewerNote" attribute="bullet-character">Reviewers</str>
+    <str type="webworks" name="child link sequence Open" attribute="bullet-character"
+        >Процедура</str>
+    <str type="webworks" name="Steps Open" attribute="bullet-character">Процедура</str>
+    <str type="webworks" name="Steps show_hide_open Open" attribute="bullet-character"
+        >Процедура</str>
+    <str type="webworks" name="Steps show_hide_closed Open" attribute="bullet-character"
+        >Процедура</str>
+
+    <str type="webworks" name="Single Appendix Heading 1" attribute="bullet-character">Приложение: </str>
+    <str type="webworks" name="Single Appendix Title" attribute="bullet-character">Приложение: </str>
+
+    <str type="webworks" name="List optional 1" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="List optional 2" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="List optional 3" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="Step optional 1" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="SubStep optional 2" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="Numbered optional 2" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="Numbered optional 1" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="Numbered optional 3" attribute="paragraph-prefix">(Необязательный) </str>
+    <str type="webworks" name="child link family Optional" attribute="paragraph-prefix"
+        >(Необязательный) </str>
+    <str type="webworks" name="child link sequence Optional" attribute="paragraph-prefix"
+        >(Необязательный) </str>
+    <str type="webworks" name="child link unordered Optional" attribute="paragraph-prefix"
+        >(Необязательный) </str>
+
+    <str type="webworks" name="copyright" attribute="paragraph-prefix">Copyright</str>
+    <str type="webworks" name="Prerequisite Open" attribute="bullet-character">Перед началом</str>
+    <str type="webworks" name="Result Open" attribute="bullet-character">Результат</str>
+    <str type="webworks" name="Context Open" attribute="bullet-character">Процедура</str>
+    <str type="webworks" name="Example Open" attribute="bullet-character">Пример</str>
+    <str type="webworks" name="Example Open show_hide_closed" attribute="bullet-character"
+        >Пример</str>
+    <str type="webworks" name="Example Open show_hide_open" attribute="bullet-character"
+        >Пример</str>
+    <str type="webworks" name="Description Open" attribute="bullet-character">Описание</str>
+    <str type="webworks" name="Syntax Open" attribute="bullet-character">Синтаксис</str>
+    <str type="webworks" name="Arguments Open" attribute="paragraph-prefix">Аргументы</str>
+    <str type="webworks" name="Options Open" attribute="paragraph-prefix">Варианты</str>
+    <str type="webworks" name="Parameters Open" attribute="paragraph-prefix">Параметры</str>
+
+    <str type="webworks" name="XREF step" attribute="character-prefix">Step </str>
+    <str type="webworks" name="XREF li" attribute="character-prefix">Step </str>
+    <str type="webworks" name="XREF figure" attribute="character-prefix">Рис. </str>
+    <str type="webworks" name="XREF table" attribute="character-prefix">Табл. </str>
+
+</strings>
